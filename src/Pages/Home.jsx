@@ -10,13 +10,15 @@ import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Disclaimer from '../components/Disclaimer'
 import MenuBar from '../components/MenuBar'
+import SearchMenu from '../components/SearchMenu'
 
 function Home() {
   return (
    <>
    <div>
     <TopBar/>
-    <Navbar/>
+    {/* <Navbar/> */}
+    <SearchMenu/>
     <MenuBar/>
     <Hero/>
     <Biomag/>
