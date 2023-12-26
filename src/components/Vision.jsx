@@ -1,0 +1,26 @@
+import React from "react";
+
+function Vision() {
+  return (
+    <section className="bg-[#F0FCFF]  py-16">
+      <div className="container-wrapper">
+        <div>
+          <h1>
+            <h1 className=" text-black text-[50px] font-bold text-center ">
+              Our Commitment to Health and Sustainability
+            </h1>
+          </h1>
+
+          <p className=" text-[#3D4B69] text-center text-base font-normal ">
+            At Unify Wellness Pvt Ltd, we believe in promoting health in a way
+            that also respects our planet. We are committed to sustainable
+            practices in our production and business operations, ensuring that
+            our products are not only good for you but also for the environment.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Vision;

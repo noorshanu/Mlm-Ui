@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-wrapper {
+  @apply max-w-[1280px] w-[88%] sm:w-[90%] mx-auto;
+}
+
+.top-bg {
+  background: var(
+    --secondary,
+    linear-gradient(136deg, #00aef3 2.61%, #008ef9 51.51%, #0076fd 96.58%)
+  );
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.15) inset;
+
+  padding: 16px 75.001px 14px 70px;
+  align-items: center;
+  width: 100%;
+}
+
+.card-p {
+  border-radius: 18.268px;
+  background: #fff;
+  box-shadow: 0px 3.218px 3.218px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  padding: 18.268px 18.268px 27.402px 18.268px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14.614px;
+}
+
+.hero-bg{
+  background-image: url('../public/images/slider.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
