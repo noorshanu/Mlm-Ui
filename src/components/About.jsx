@@ -18,8 +18,8 @@ function About() {
       <div className="container-wrapper relative z-20">
         <div className="flex justify-between items-center flex-col sm:flex-row">
           <img src="images/part1.png" alt="" className=" h-[600px]" />
-          <div>
-            <h1 className=" text-black text-[50px] font-bold ">Why Bio Magnetic Therapy?</h1>
+          <div> 
+            <h1 className=" text-black text-[50px] font-bold my-4 ">Why Bio Magnetic Therapy?</h1>
 
             <BenefitSection
               iconSrc="images/icon1.png"
