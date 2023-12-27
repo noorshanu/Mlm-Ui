@@ -6,7 +6,7 @@ function Contact() {
    <section className='bg-[#F0FCFF] py-4 sm:py-14'>
     <div className=' max-w-5xl mx-auto'>
 
-        <div className=' flex justify-between  '>
+        <div className=' flex justify-between flex-col sm:flex-row  '>
             <img src="images/contact.png" alt="" className=' h-[550px]' />
 
             <div>
