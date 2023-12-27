@@ -3,8 +3,8 @@ import React from "react";
 function Disclaimer() {
   return (
     <section className="bg-[#00AEF3] py-4">
-      <p>Disclaimer</p>
-      <p>
+      <p className=" text-center text-white text-lg font-semibold mb-1">Disclaimer</p>
+      <p className=" text-center text-sm font-normal max-w-4xl mx-auto text-white ">
         The information provided on this website by Unify Wellness Pvt Ltd is
         for general informational purposes only. While we strive to keep the
         information up-to-date and accurate, we make no representations or

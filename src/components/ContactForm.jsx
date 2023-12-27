@@ -69,7 +69,7 @@ const ContactForm = () => {
           type="email"
           id="email"
           name="email"
-          placeholder="Enter Your Email"
+          placeholder="Ex JohnDoe214@gmail.com"
           value={formData.email}
           onChange={handleChange}
           className="w-full p-2 focus:outline-none  rounded bg-[#0000000A]"
@@ -95,7 +95,7 @@ const ContactForm = () => {
 
       <button
         type="submit"
-        className="bg-blue-500 text-white p-2 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+        className="bg-[#0093FF] text-white py-2 px-12 text-lg font-bold rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
       >
         Submit
       </button>
