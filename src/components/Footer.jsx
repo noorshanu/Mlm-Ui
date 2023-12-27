@@ -69,11 +69,11 @@ function Footer() {
 
 
           <div>
-            <h2 className=" text-xl text-black font-bold mb-4">Magnetotherapy Biomag</h2>
+            <h2 className=" text-xl text-black font-bold mb-4">More information</h2>
 
            <div className=" flex flex-col gap-3 items-start justify-start">
-           <a href="/" className=" text-lg font-normal ">Favourite sets</a>
-            <a href="/" className=" text-lg font-normal ">Applicators</a>
+           <a href="/" className=" text-lg font-normal ">Contact</a>
+            <a href="/" className=" text-lg font-normal ">News</a>
             <a href="/" className=" text-lg font-normal ">Devices</a>
             <a href="/" className=" text-lg font-normal ">Accessories</a>
             <a href="/" className=" text-lg font-normal ">Certificates</a>
