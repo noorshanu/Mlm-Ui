@@ -19,7 +19,7 @@ function Vision() {
           </p>
         </div>
 
-        <div className=" flex items-center justify-between gap-4 my-8">
+        <div className=" flex flex-col sm:flex-row items-center justify-between gap-4 my-8">
           <img src="images/comp1.png" alt="" />
           <img src="images/comp2.png" alt="" />
           <img src="images/comp3.png" alt="" />

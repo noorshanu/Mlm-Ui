@@ -6,7 +6,7 @@ function Footer() {
   return (
     <section className="bg-[#F0FCFF] mt-8 py-6 sm:py-16">
       <div className="container-wrapper mx-auto">
-        <div className=" flex justify-between gap-28">
+        <div className=" flex flex-col sm:flex-row justify-between gap-28">
           <div>
             <img src="images/logo.png" alt="" className=" mb-3"/>
 

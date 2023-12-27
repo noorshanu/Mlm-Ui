@@ -16,7 +16,7 @@ function Home() {
   return (
    <>
    <div>
-    <TopBar/>
+    {/* <TopBar/> */}
     {/* <Navbar/> */}
     <SearchMenu/>
     <MenuBar/>
