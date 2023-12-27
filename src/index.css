@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "sfpro";
+  src: url("../public/fonts/SFpro.ttf");
+}
+body{
+  font-family: "sfpro" !important;
+}
+
+.font-sfpro{
+  font-family: "sfpro";
+}
+
 .container-wrapper {
   @apply max-w-[1280px] w-[88%] sm:w-[90%] mx-auto;
 }

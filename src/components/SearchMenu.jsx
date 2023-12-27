@@ -9,7 +9,7 @@ function SearchMenu() {
             <img src="images/logo.png" alt="" />
         </div>
         <div>
-            <div className=' bg-[#E9E9E9] h-[60px] px-9 '>
+            <div className=' bg-[#E9E9E9] h-[60px] px-9 flex justify-between items-center '>
                 <input type="text" name="" id="" placeholder='What are you looking for ?' />
 
                 <FaSearch />
