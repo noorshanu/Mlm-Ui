@@ -11,6 +11,37 @@ body{
   font-family: "sfpro" !important;
 }
 
+.lh-1 {
+  line-height: 1 !important;
+}
+.lh-1_1 {
+  line-height: 1.1 !important;
+}
+.lh-1_2 {
+  line-height: 1.2 !important;
+}
+.lh-1_3 {
+  line-height: 1.3 !important;
+}
+.lh-1_4 {
+  line-height: 1.4 !important;
+}
+.lh-1_5 {
+  line-height: 1.5 !important;
+}
+.lh-1_6 {
+  line-height: 1.6 !important;
+}
+.lh-1_7 {
+  line-height: 1.7 !important;
+}
+.lh-1_8 {
+  line-height: 1.8 !important;
+}
+.lh-1_9 {
+  line-height: 1.9 !important;
+}
+
 .font-sfpro{
   font-family: "sfpro";
 }
