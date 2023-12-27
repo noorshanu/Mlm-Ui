@@ -34,7 +34,7 @@ function Products() {
     <section className=" py-4 sm:py-14">
       <div className="container-wrapper">
         <div>
-          <h1 className=" text-[50px] font-bold text-black text-center">
+          <h1 className=" text-[50px] font-bold text-black text-center my-2">
             Our Products
           </h1>
         </div>
