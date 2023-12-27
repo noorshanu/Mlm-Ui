@@ -1,4 +1,6 @@
 import React from "react";
+import { FaXTwitter,FaInstagram ,FaYoutube} from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -6,15 +8,29 @@ function Footer() {
       <div className="container-wrapper mx-auto">
         <div className=" flex justify-between gap-28">
           <div>
-            <img src="images/logo.png" alt="" className=" mb-4"/>
+            <img src="images/logo.png" alt="" className=" mb-3"/>
 
-            <p className=" max-w-sm">
+            <p className=" max-w-sm mb-2 text-xs font-normal">
               We merge the latest in wellness technology with everyday
               usability. Our mission is to provide products that seamlessly
               integrate optimum health benefits into your daily life. Discover a
               holistic approach to well-being with Unify Wellness – your trusted
               partner on the path to a healthier, happier life.
             </p>
+            <div className=" flex items-center gap-2 pt-2">
+            <a href="/" className="  text-lg text-[#000000]">
+              <FaXTwitter />
+            </a>
+            <a href="/" className="  text-lg text-[#000000]">
+            <FaFacebook />
+            </a>
+            <a href="/" className="  text-lg text-[#000000]"> 
+            <FaInstagram />
+            </a>
+            <a href="/" className=" text-lg text-[#000000]">
+            <FaYoutube />
+            </a>
+          </div>
           </div>
 
           <div>
