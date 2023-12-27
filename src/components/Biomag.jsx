@@ -2,7 +2,7 @@ import React from "react";
 
 function Biomag() {
   return (
-    <section>
+    <section className=" py-4 sm:py-14 bg-[#F0FCFF]" >
       <div className="container-wrapper">
         <div>
           <h1 className=" text-[50px] font-bold text-black text-center">

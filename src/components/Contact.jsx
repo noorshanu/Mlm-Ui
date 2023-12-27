@@ -3,14 +3,14 @@ import ContactForm from './ContactForm'
 
 function Contact() {
   return (
-   <section className='bg-[#F0FCFF] py-8'>
-    <div className='container-wrapper'>
+   <section className='bg-[#F0FCFF] py-4 sm:py-14'>
+    <div className=' max-w-5xl mx-auto'>
 
-        <div className=' flex justify-between items-center gap-6'>
-            <img src="images/contact.png" alt="" />
+        <div className=' flex justify-between  '>
+            <img src="images/contact.png" alt="" className=' h-[550px]' />
 
             <div>
-                <h1>Contact us</h1>
+                <h1 className='text-[#303A42] text-4xl font-bold  pb-6 '>Contact us</h1>
 
 
               <ContactForm/>

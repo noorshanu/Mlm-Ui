@@ -8,7 +8,7 @@ const Cards = ({
   gstPrice,
   TotalPrice,
 }) => (
-  <div className="card-p ">
+  <div className="card-p  ">
     <div>
       {/* <img src={iconSrc} alt="" /> */}
       <img src="images/prodimg.png" alt="" />
@@ -31,7 +31,7 @@ const Cards = ({
 
 function Products() {
   return (
-    <section>
+    <section className=" py-4 sm:py-14">
       <div className="container-wrapper">
         <div>
           <h1 className=" text-[50px] font-bold text-black text-center">
