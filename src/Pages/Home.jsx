@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import TopBar from '../components/TopBar'
+
+
 import Biomag from '../components/Biomag'
 import About from '../components/About'
 import Vision from '../components/Vision'

@@ -84,3 +84,13 @@ body{
   border-radius: 4px;
 background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.51%, #0076FD 96.58%));
 }
+
+.menu p{
+  font-weight: 700;
+  
+}
+
+.menu p:hover{
+  color:#008EF9 ;
+  
+}

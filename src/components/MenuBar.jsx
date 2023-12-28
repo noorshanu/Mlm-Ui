@@ -16,7 +16,7 @@ function MenuBar() {
             <img src="images/logo.png" alt="" className='h-[80px] p-3' />
           </div>
           <div className='flex items-center gap-6'>
-            <div className='hidden md:flex'>
+            <div className='hidden md:flex gap-6 menu'>
               {/* Desktop Navigation */}
               <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase'>
                 Home care
@@ -59,7 +59,8 @@ function MenuBar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className='md:hidden'>
-            <p className='text-black cursor-pointer hover:text-black text-sm uppercase'>
+         <div className=' flex flex-col gap-4 menu'>
+         <p className='text-black cursor-pointer hover:text-black text-sm uppercase'>
               Home care
             </p>
             <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
@@ -83,6 +84,8 @@ function MenuBar() {
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 Contact
                 </p>
+
+         </div>
           </div>
         )}
       </div>
