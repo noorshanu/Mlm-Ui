@@ -5,9 +5,9 @@ import { FaFacebook } from "react-icons/fa";
 function SearchMenu() {
   return (
    <section className='bg-[#00AEF3]'>
-    <div className='container-wrapper flex justify-end items-center py-1'>
+    <div className='container-wrapper flex justify-center sm:justify-end items-center py-1'>
      
-        <div className=" flex items-center gap-6">
+        <div className=" flex flex-col sm:flex-row items-center gap-6">
           <div className=" flex items-center gap-3">
             <a
               href="/"

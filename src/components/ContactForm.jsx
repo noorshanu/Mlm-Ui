@@ -23,8 +23,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form className=" mx-auto mt-8" onSubmit={handleSubmit}>
-      <div className=" flex items-center gap-6 mb-4">
+    <form className=" mx-auto mt-8 sm:p-0 px-7" onSubmit={handleSubmit}>
+      <div className=" flex flex-col sm:flex-row justify-start items-start sm:items-center gap-6 mb-4">
 
       <div className="mb-4">
         <label htmlFor="firstName" className="block text-gray-700 text-xl font-bold mb-2">
@@ -37,7 +37,7 @@ const ContactForm = () => {
           placeholder="First name"
           value={formData.firstName}
           onChange={handleChange}
-          className="w-full p-2 focus:outline-none  rounded bg-[#0000000A]"
+          className="  w-full  p-2 focus:outline-none  rounded bg-[#0000000A]"
           required
         />
       </div>
@@ -72,7 +72,7 @@ const ContactForm = () => {
           placeholder="Ex JohnDoe214@gmail.com"
           value={formData.email}
           onChange={handleChange}
-          className="w-full p-2 focus:outline-none  rounded bg-[#0000000A]"
+          className="w-[60%] sm:w-full p-2 focus:outline-none  rounded bg-[#0000000A]"
           required
         />
       </div>
@@ -87,7 +87,7 @@ const ContactForm = () => {
           placeholder="Enter Your Message"
           value={formData.message}
           onChange={handleChange}
-          className="w-full p-2 focus:outline-none  rounded bg-[#0000000A]"
+          className="w-[60%] sm:w-full p-2 focus:outline-none  rounded bg-[#0000000A]"
           rows="4"
           required
         ></textarea>

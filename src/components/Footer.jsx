@@ -10,7 +10,7 @@ function Footer() {
           <div>
             <img src="images/logo.png" alt="" className=" mb-3"/>
 
-            <p className=" max-w-sm mb-2 text-xs font-normal">
+            <p className=" max-w-full pr-4 sm:pr-0 sm:max-w-sm mb-2 text-xs font-normal">
               We merge the latest in wellness technology with everyday
               usability. Our mission is to provide products that seamlessly
               integrate optimum health benefits into your daily life. Discover a

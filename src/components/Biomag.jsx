@@ -5,7 +5,7 @@ function Biomag() {
     <section className=" py-4 sm:py-14 bg-[#F0FCFF]" >
       <div className="container-wrapper">
         <div>
-          <h1 className=" text-[50px] font-bold text-black text-center ">
+          <h1 className="text-[24px] sm:text-[50px] font-bold text-black text-center ">
             Effects of 3D pulsed magnetotherapy Biomag
           </h1>
 

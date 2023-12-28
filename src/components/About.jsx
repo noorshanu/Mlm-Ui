@@ -1,7 +1,7 @@
 import React from "react";
 
 const BenefitSection = ({ iconSrc, title, description }) => (
-  <div className="flex items-center gap-6 py-4">
+  <div className="flex flex-col sm:flex-row items-center gap-6 py-4">
     <img src={iconSrc} alt="" />
     <div>
       <h2 className=" text-[#0076FD] font-medium text-[30px] ">{title}</h2>
@@ -13,13 +13,13 @@ const BenefitSection = ({ iconSrc, title, description }) => (
 function About() {
   return (
     <section className="py-4 sm:py-14 relative">
-      <img src="images/part2.png" alt="" className=" absolute top-20 h-[570px]" />
+      <img src="images/part2.png" alt="" className=" absolute top-20 h-[230px] sm:h-[570px]" />
 
       <div className="container-wrapper relative z-20">
         <div className="flex justify-between items-center flex-col sm:flex-row">
-          <img src="images/part1.png" alt="" className=" h-[600px]" />
+          <img src="images/part1.png" alt="" className=" h-[300px] sm:h-[600px]" />
           <div> 
-            <h1 className=" text-black text-[50px] font-bold my-4 ">Why Bio Magnetic Therapy?</h1>
+            <h1 className=" text-black text-[24px] sm:text-[50px] font-bold my-4 ">Why Bio Magnetic Therapy?</h1>
 
             <BenefitSection
               iconSrc="images/icon1.png"

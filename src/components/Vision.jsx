@@ -6,7 +6,7 @@ function Vision() {
       <div className="container-wrapper">
         <div>
           <h1>
-            <h1 className=" text-black text-[50px] font-bold text-center  ">
+            <h1 className=" text-black text-[24px] sm:text-[50px] font-bold text-center  ">
               Our Commitment to Health and Sustainability
             </h1>
           </h1>
