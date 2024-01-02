@@ -67,7 +67,7 @@ function Hero() {
          
       
 
-      <div className="flex items-center space-x-5 justify-start">
+      <div className="flex items-center space-x-5 justify-center my-4">
         <SliderNavigationButton id="prevEl" className="rotate-180" />
         <SliderNavigationButton id="nextEl" />
       </div>
