@@ -19,26 +19,18 @@ function MenuBar() {
             <div className='hidden md:flex gap-6 menu'>
               {/* Desktop Navigation */}
               <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase'>
-                Home care
+                Home 
               </p>
               <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
-                Clinical
+                About us
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Home care
+                Products
                 </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Veterinary
-                </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Magnetotherapy
-                </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Encyclopedia
-                </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                How and where to buy
-                </p>
+              
+              
+               
+           
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 Contact
                 </p>

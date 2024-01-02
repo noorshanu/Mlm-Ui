@@ -23,15 +23,10 @@ const Card = () => {
         seamlessly integrated into your daily life.
       </p>
       <div className=" flex  items-center gap-4">
-        <a href="/" className="btn-main px-8 py-2">
-          Learn More
+        <a href="/" className="btn-main px-8 py-2 font-bold">
+          Sign Up
         </a>
-        <a
-          href="/"
-          className=" rounded-md border border-[#00AEF3] text-[#00AEF3] px-8 py-2"
-        >
-          Try it for Free
-        </a>
+     
       </div>
     </div>
   );
@@ -39,10 +34,8 @@ const Card = () => {
 
 function Hero() {
   return (
-    <div className="hero-bg">
-      <div className="container-wrapper">
-        <div className=" py-12 max-w-2xl h-full">
-          {/* <Swiper
+    <>
+          <Swiper
             navigation={{
               nextEl: "#nextEl",
               prevEl: "#prevEl",
@@ -51,27 +44,35 @@ function Hero() {
             className="mySwiper"
           >
             <SwiperSlide>
+            <div className="hero-bg">
+      <div className="container-wrapper">
+        <div className=" py-12 max-w-2xl h-full">
               <Card  />
-            </SwiperSlide>
-            <SwiperSlide>
-            <Card  />
-            </SwiperSlide>
-            <SwiperSlide>
-            <Card  />
-            </SwiperSlide>
-            <SwiperSlide>
-            <Card  />
-            </SwiperSlide>
-          </Swiper> */}
-          <Card />
-        </div>
+              </div>
       </div>
+      </div>
+            </SwiperSlide>
 
-      {/* <div className="flex items-center space-x-5 justify-start">
+            <SwiperSlide>
+            <div className="hero-bg">
+      <div className="container-wrapper">
+        <div className=" py-12 max-w-2xl h-full">
+              <Card  />
+              </div>
+      </div>
+      </div>
+            </SwiperSlide>
+            
+          </Swiper>
+         
+      
+
+      <div className="flex items-center space-x-5 justify-start">
         <SliderNavigationButton id="prevEl" className="rotate-180" />
         <SliderNavigationButton id="nextEl" />
-      </div> */}
-    </div>
+      </div>
+   
+   </>
   );
 }
 
