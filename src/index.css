@@ -65,6 +65,7 @@ body{
 .card-p {
   border-radius: 18.268px;
   background: #fff;
+  width: 300px;
   box-shadow: 0px 3.218px 3.218px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   padding: 18.268px 18.268px 27.402px 18.268px;

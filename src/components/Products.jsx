@@ -17,22 +17,28 @@ const Cards = ({
   gstPrice,
   TotalPrice,
 }) => (
-  <div className="card-p  border ">
+  <div className="card-p  border sm:m-0 m-4 ">
     <div>
-      <img src={iconSrc} alt="" className=" mx-auto rounded-lg h-[180px] w-auto sm:w-[266px]" />
+      <img
+        src={iconSrc}
+        alt=""
+        className=" mx-auto rounded-lg h-[180px] w-auto sm:w-[266px]"
+      />
       {/* <img src="images/prodimg.png" alt=""  className=" mx-auto rounded-lg"/> */}
     </div>
     <div>
-      <h2 className=" text-black font-sfpro font-medium text-xl mb-1">{title}</h2>
+      <h2 className=" text-black font-sfpro font-medium text-xl mb-1">
+        {title}
+      </h2>
       <p className=" text-[#979797] text-sm font-sfpro mb-1">{description}</p>
-      {/* <div className=" flex justify-between items-center mb-1">
-        <h3 className="text-[#00AEF3] font-bold text-xl font-sfpro"> ₹ {price}</h3>
-        <p className=" text-[#979797] text-sm font-sfpro ">with GST ₹ {gstPrice}</p>
-      </div> */}
 
       <div className=" flex justify-between items-center">
-        <h3 className="text-[#979797] text-sm font-sfpro font-normal">MRP Price inc GST</h3>
-        <p className="text-[#000] text-sm font-sfpro font-semibold" >₹ {TotalPrice}  </p>
+        <h3 className="text-[#979797] text-sm font-sfpro font-normal">
+          MRP Price inc GST
+        </h3>
+        <p className="text-[#000] text-sm font-sfpro font-semibold">
+          ₹ {TotalPrice}{" "}
+        </p>
       </div>
     </div>
   </div>
@@ -50,43 +56,35 @@ function Products() {
 
         <div className="sm:flex justify-between items-center gap-4 py-4 hidden">
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod4.jpg'
+            title="Biomagnetic Mattress"
+            iconSrc="images/prod/prod4.jpg"
             description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="950.00"
-            gstPrice=" 950.00"
             TotalPrice="7,500.00"
           />
 
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod3.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="950.00"
-            gstPrice=" 950.00"
-            TotalPrice="7,500.00"
+            title="Biomagnetic Mattress"
+            iconSrc="images/prod/prod3.jpg"
+            description="Single Premium Mattress + One Pillow (100+20 Magnets)"
+            TotalPrice="11,000.00"
           />
 
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod2.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="950.00"
-            gstPrice=" 950.00"
-            TotalPrice="7,500.00"
+            title="Bracelet"
+            iconSrc="images/prod/prod2.jpg"
+            description="Enhance Your Strength and StaminaA magnetic Bracelet"
+            TotalPrice="600.00"
           />
 
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod1.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="950.00"
-            gstPrice=" 950.00"
-            TotalPrice="7,500.00"
+            title="Foot Massager "
+            iconSrc="images/prod/prod1.jpg"
+            description="Relieves foot tension, pain, and chronic fatigue ."
+            TotalPrice="1,500.00"
           />
         </div>
-        <div className=" block sm:hidden "> 
-        <Swiper
+        <div className=" block sm:hidden ">
+          <Swiper
             navigation={{
               nextEl: "#nextEl",
               prevEl: "#prevEl",
@@ -95,84 +93,103 @@ function Products() {
             className="mySwiper"
           >
             <SwiperSlide>
+              <Cards
+                title="Biomagnetic Mattress"
+                iconSrc="images/prod/prod4.jpg"
+                description="Single Regular Mattress + One Pillow (80+20 Magnets)"
+                TotalPrice="7,500.00"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cards
+                title="Biomagnetic Mattress"
+                iconSrc="images/prod/prod3.jpg"
+                description="Single Premium Mattress + One Pillow (100+20 Magnets)"
+                TotalPrice="11,000.00"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cards
+                title="Bracelet"
+                iconSrc="images/prod/prod2.jpg"
+                description="Enhance Your Strength and StaminaA magnetic Bracelet"
+                TotalPrice="600.00"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cards
+                title="Foot Massager "
+                iconSrc="images/prod/prod1.jpg"
+                description="Relieves foot tension, pain, and chronic fatigue ."
+                TotalPrice="1,500.00"
+              />
+            </SwiperSlide>
+
+            <SwiperSlide>
             <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod4.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Water pad "
+            iconSrc="images/prod/prod5.jpg"
+            description="ultimate solution  to stay hydrated for improving thier  health "
+            TotalPrice="800.00"
           />
             </SwiperSlide>
             <SwiperSlide>
             <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod3.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Knee Cap Single Knee "
+            iconSrc="images/prod/prod6.jpg"
+            description="it's designed for any and all knee injuries,arthritis,ACL tears etc"
+            TotalPrice="2,000.00"
+          />
+
+            </SwiperSlide>
+            <SwiperSlide>
+            <Cards
+            title="Posture Corrector"
+            iconSrc="images/prod/prod7.jpg"
+            description="it's to mold seamlessly with the upper and middle back support ."
+            TotalPrice="2,500.00"
           />
             </SwiperSlide>
             <SwiperSlide>
             <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod2.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
-          />
-            </SwiperSlide>
-            <SwiperSlide>
-            <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod1.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Neck Massager"
+            iconSrc="images/prod/prod8.jpg"
+            description=" the massager help to increase blood flow to the neck muscles, promoting healing and relaxation"
+           
+            TotalPrice="1,250.00"
           />
             </SwiperSlide>
           </Swiper>
         </div>
 
-
         <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4">
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod5.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Water pad "
+            iconSrc="images/prod/prod5.jpg"
+            description="ultimate solution  to stay hydrated for improving thier  health "
+            TotalPrice="800.00"
           />
 
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod6.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Knee Cap Single Knee "
+            iconSrc="images/prod/prod6.jpg"
+            description="it's designed for any and all knee injuries,arthritis,ACL tears etc"
+            TotalPrice="2,000.00"
           />
 
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod7.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Posture Corrector"
+            iconSrc="images/prod/prod7.jpg"
+            description="it's to mold seamlessly with the upper and middle back support ."
+            TotalPrice="2,500.00"
           />
 
           <Cards
-            title="Regular Mattress"
-            iconSrc='images/prod/prod8.jpg'
-            description="Single Regular Mattress + One Pillow (80+20 Magnets)"
-            price="€950.00"
-            gstPrice=" €950.00"
-            TotalPrice="7,500.00"
+            title="Neck Massager"
+            iconSrc="images/prod/prod8.jpg"
+            description=" the massager help to increase blood flow to the neck muscles, promoting healing and relaxation"
+           
+            TotalPrice="1,250.00"
           />
         </div>
       </div>
