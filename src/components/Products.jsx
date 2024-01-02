@@ -17,7 +17,7 @@ const Cards = ({
   gstPrice,
   TotalPrice,
 }) => (
-  <div className="card-p  ">
+  <div className="card-p  border ">
     <div>
       <img src={iconSrc} alt="" className=" mx-auto rounded-lg h-[180px] w-auto sm:w-[266px]" />
       {/* <img src="images/prodimg.png" alt=""  className=" mx-auto rounded-lg"/> */}
@@ -85,7 +85,7 @@ function Products() {
             TotalPrice="7,500.00"
           />
         </div>
-        <div className=" block sm:hidden"> 
+        <div className=" block sm:hidden "> 
         <Swiper
             navigation={{
               nextEl: "#nextEl",
@@ -138,7 +138,7 @@ function Products() {
         </div>
 
 
-        <div className=" hidden sm:flex justify-between items-center gap-4 py-4">
+        <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4">
           <Cards
             title="Regular Mattress"
             iconSrc='images/prod/prod5.jpg'
