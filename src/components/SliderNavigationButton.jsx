@@ -6,11 +6,11 @@ function SliderNavigationButton({ className, ...props }) {
     <button
       {...props}
       className={twMerge(
-        "w-14 h-14 rounded-full bg-green/40 flex items-center justify-center text-2xl disabled:bg-white",
+        "w-14 h-14 rounded-full bg-[#000] flex items-center justify-center text-2xl disabled:bg-[#646464]",
         className
       )}
     >
-      <IoIosArrowRoundForward />
+      <IoIosArrowRoundForward className="text-[#fff]" />
     </button>
   );
 }

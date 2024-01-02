@@ -161,6 +161,10 @@ function Products() {
             </SwiperSlide>
           </Swiper>
         </div>
+        <div className="flex sm:hidden items-center space-x-5 justify-center">
+        <SliderNavigationButton id="prevEl" className="rotate-180" />
+        <SliderNavigationButton id="nextEl" />
+      </div>
 
         <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4">
           <Cards
