@@ -52,27 +52,19 @@ function MenuBar() {
         {isMenuOpen && (
           <div className='md:hidden'>
          <div className=' flex flex-col gap-4 menu'>
-         <p className='text-black cursor-pointer hover:text-black text-sm uppercase'>
-              Home care
-            </p>
-            <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
-                Clinical
+         <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase'>
+                Home 
+              </p>
+              <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
+                About us
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Home care
+                Products
                 </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Veterinary
-                </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Magnetotherapy
-                </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Encyclopedia
-                </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                How and where to buy
-                </p>
+              
+              
+               
+           
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 Contact
                 </p>
