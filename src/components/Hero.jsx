@@ -12,8 +12,13 @@ import { Navigation } from "swiper/modules";
 const Card = () => {
   return (
     <div className=" mt-8">
-      <p className=" text-white text-2xl font-medium capitalize mb-2">Welcome to <span className=" text-[#008EF9]"> Unify Wellness Pvt Ltd </span></p>
-      <h2 className=" text-white font-sfpro text-[50px] font-bold lh-1_1 mb-3">Empowering Health Through Innovative Solutions</h2>
+      <p className=" text-white text-2xl font-medium capitalize mb-2">
+        Welcome to{" "}
+        <span className=" text-[#008EF9]"> Unify Wellness Pvt Ltd </span>
+      </p>
+      <h2 className=" text-white font-sfpro text-[50px] font-bold lh-1_1 mb-3">
+        Empowering Health Through Innovative Solutions
+      </h2>
 
       <p className="text-lg opacity-70 text-white mb-4">
         At Unify Wellness Pvt Ltd, we are dedicated to enhancing your health and
@@ -26,7 +31,6 @@ const Card = () => {
         <a href="/" className="btn-main px-8 py-2 font-bold">
           Sign Up
         </a>
-     
       </div>
     </div>
   );
@@ -35,44 +39,49 @@ const Card = () => {
 function Hero() {
   return (
     <>
-          <Swiper
-            navigation={{
-              nextEl: "#nextEl",
-              prevEl: "#prevEl",
-            }}
-            modules={[Navigation]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-            <div className="hero-bg">
-      <div className="container-wrapper">
-        <div className=" py-12 max-w-2xl h-full">
-              <Card  />
+      <Swiper
+        navigation={{
+          nextEl: "#nextEl",
+          prevEl: "#prevEl",
+        }}
+        modules={[Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className="hero-bg">
+            <div className="container-wrapper">
+              <div className=" py-12 max-w-2xl h-full">
+                <Card />
               </div>
-      </div>
-      </div>
-            </SwiperSlide>
+            </div>
+          </div>
+        </SwiperSlide>
 
-            <SwiperSlide>
-            <div className="hero-bg">
-      <div className="container-wrapper">
-        <div className=" py-12 max-w-2xl h-full">
-              <Card  />
+        <SwiperSlide>
+          <div className="hero-bg2">
+            <div className="container-wrapper">
+              <div className=" py-12 max-w-2xl h-full">
+           
               </div>
-      </div>
-      </div>
-            </SwiperSlide>
-            
-          </Swiper>
-         
-      
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="hero-bg3">
+            <div className="container-wrapper">
+              <div className=" py-12 max-w-2xl h-full">
+               
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
 
       <div className="flex items-center space-x-5 justify-center my-4">
         <SliderNavigationButton id="prevEl" className="rotate-180" />
         <SliderNavigationButton id="nextEl" />
       </div>
-   
-   </>
+    </>
   );
 }
 

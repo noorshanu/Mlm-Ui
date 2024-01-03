@@ -81,6 +81,23 @@ body{
   background-position: center;
   height: 700px;
 }
+
+.hero-bg2{
+  background-image: url('../public/images/slider2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+
+.hero-bg3{
+  background-image: url('../public/images/slider3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
 .btn-main{
   border-radius: 4px;
 background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.51%, #0076FD 96.58%));
