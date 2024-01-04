@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Disclaimer from "../components/Disclaimer";
 import { FaRegDotCircle } from "react-icons/fa";
 
-function Privacy() {
+function Terms() {
   return (
     <>
       <SearchMenu />
@@ -15,86 +15,76 @@ function Privacy() {
       <section className="  bg-slate-200 py-8">
         <div className="container-wrapper">
           <div>
-            <h1 className=" text-2xl font-bold pb-2">PRIVACY POLICY</h1>
+            <h1 className=" text-2xl font-bold pb-2">TERMS & CONDITIONS</h1>
           </div>
 
           <div>
             <p className=" pb-2">
-              At Unify Wellness Pvt Ltd, we value the trust you place in
-              us.That's why we insist upon the highest standards for secure
-              transactions and customer information privacy. Please read the
-              following statement to learn about our information gathering and
-              dissemination practices
+              Please read the following terms and conditions very carefully as
+              your use of service is subject to your acceptance of and
+              compliance with the following terms and conditions ("Terms").{" "}
+              <br />
+              By subscribing to or using any of our services you agree that you
+              have read, understood and are bound by the Terms, regardless of
+              how you subscribe to or use the services..
+              <br />
+              In these Terms, references to "you", "User" shall mean the end
+              user accessing the website, its contents and using the services
+              offered through the website. "We", "us" and "our" shall mean Unify
+              Wellness Pvt Ltd (hereinafter referred as ‘Unify Wellness Pvt
+              Ltd’), and its authorized affiliates.
             </p>
 
-            <h2 className="text-2xl font-bold pb-2">Note:</h2>
+            <h2 className="text-2xl font-bold pb-2">Introduction:</h2>
 
             <p className=" flex gap-2 items-center mb-2">
-              <FaHandPointRight /> Our privacy policy is subject to change at
-              any time without notice. To make sure you are aware of any
-              changes, please review this policy periodically.
+              www.unifyhealthwellness.com website ("Website") is an Internet
+              based content and e-commerce portal owned and operated by Unify
+              Wellness Pvt Ltd, registered as a Ltd company incorporated under
+              Companies Act, No.1 of 1956 of India.
             </p>
             <p className=" flex gap-2 items-center mb-2">
-              <FaHandPointRight /> By visiting this Website you agree to be
-              bound by the terms and conditions of this Privacy Policy. If you
-              do not agree please do not use or access our Website.
-            </p>
-            <p className=" flex gap-2 items-center mb-2">
-              <FaHandPointRight /> By mere use of the Website, you expressly
-              consent to our use and disclosure of your personal information in
-              accordance with this Privacy Policy.This Privacy Policy is
-              incorporated into and subject to the Terms of Use.
+              Use of Website is offered to you on acceptance without
+              modification of all the terms, conditions and notices contained in
+              these Terms, as may be posted on the Website from time to time.
+              Rootveda Wellness at its sole discretion reserves the right not to
+              accept a user from registering on the website without assigning
+              any reason thereof.
             </p>
 
             <h2 className=" py-4 text-2xl font-bold">
-              1. Collection of Personally Identifiable Information and other
-              Information:
+              User Account, Password and Security:
             </h2>
 
             <p className=" flex gap-2 items-center mb-2">
-              When you use our Website, we collect and store your personal
-              information which is provided by you from time to time. <br /> Our
-              primary goal in doing so is to provide you a safe, efficient,
-              smooth and customized experience.This allows us to provide <br />
-              services and features that most likely meet your needs, and to
-              customize our Website to make your experience safer and easier.{" "}
+              Upon completing the registration processthe user will receive a
+              password and account designation. The user is responsible for
+              maintaining the confidentiality of the password and account, and
+              is fully responsible for all activities that occur under the
+              user’s password or account. The user agrees to
               <br />
-              More importantly, while doing so we collect personal information
-              from you that we consider necessary for achieving this purpose.
+              Immediately notify at info@rootvedawellness.com of any
+              unauthorized use of your password or account or any other breach
+              of security, and
             </p>
 
             <p className=" flex gap-2 items-center mb-2">
-              In general, you can browse the Website without telling us who you
-              are or revealing any personal information about yourself. <br />{" "}
-              Once you give us your personal information, you are not anonymous
-              to us.Where possible, we indicate which fields are required and
-              which <br />
-              fields those are optional.You always have the option to not
-              provide information by choosing not to use a particular service or{" "}
-              <br />
-              feature on the Website. We may automatically track certain
-              information about you based upon your behaviour on our Website. We{" "}
-              <br />
-              use this information to do internal research on our user's
-              demographics, interests, and behaviour to better understand,
-              protect and serve our users. <br /> This information is compiled
-              and analysed on an aggregated basis. This information may include
-              the URL that you just came from (whether this URL <br /> is on our
-              Website or not), which URL you next go to (whether this URL is on
-              our Website or not), your computer browser information, and your
-              IP address.
+              Ensure that the user exits from the logged in account at the end
+              of each session. Rootveda Wellness cannot and will not be liable
+              for any loss or damage arising from the user’s failure to comply
+              with this section.
             </p>
 
-            <h2 className=" py-4 text-2xl font-bold">
-              2. Use of Demographic / Profile Data /Your Information:
-            </h2>
+            <h2 className=" py-4 text-2xl font-bold">Services:</h2>
             <p className=" flex gap-2 items-center mb-2">
-              We use personal information to provide the services you request.To
-              the extent we use your personal information to market to you,{" "}
-              <br /> we will provide you the ability to opt-out of such uses. In
-              our efforts to continually improve our product and service <br />
-              offerings, we collect and analyse demographic and profile data
-              about our users' activity on our Website
+              Rootveda Wellness provides a number of internet based services
+              through the website (all services collectively understood as
+              "Service"). One such service enables users to order products of
+              Rootveda Wellness such as home care, health care, personal care,
+              food & beverages, skin care products, etc., (collectively,
+              "Products"). Upon placing order, Rootveda Wellness shall arrange
+              shipment of the product(s)upon successful realisation of its
+              payment for the Services.
             </p>
 
             <p className=" flex gap-2 items-center mb-2">
@@ -190,4 +180,4 @@ function Privacy() {
   );
 }
 
-export default Privacy;
+export default Terms;

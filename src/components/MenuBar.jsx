@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function MenuBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,13 +14,18 @@ function MenuBar() {
       <div className='container-wrapper'>
         <div className='flex justify-between items-center gap-6'>
           <div>
+            <Link to='/'>
+            
             <img src="images/logo.png" alt="" className='h-[80px] p-3' />
+            </Link>
           </div>
           <div className='flex items-center gap-6'>
             <div className='hidden md:flex gap-6 menu'>
               {/* Desktop Navigation */}
               <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase'>
-                Home 
+               <Link to='/'>
+               Home
+               </Link>  
               </p>
               <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
                 About us
