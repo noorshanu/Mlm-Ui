@@ -33,7 +33,17 @@ function MenuBar() {
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 Products
                 </p>
-              
+
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                Legal
+                </p>
+
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                Rank Achievers
+                </p>
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                Gallery
+                </p>
               
                
            
