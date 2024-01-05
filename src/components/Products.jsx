@@ -18,11 +18,11 @@ const Cards = ({
   TotalPrice,
 }) => (
   <div className="card-p  border sm:m-0 m-4 ">
-    <div>
+    <div className=" text-center">
       <img
         src={iconSrc}
         alt=""
-        className=" mx-auto rounded-lg h-[180px] w-auto sm:w-[266px]"
+        className="  rounded-lg h-[180px] w-auto  mx-auto "
       />
       {/* <img src="images/prodimg.png" alt=""  className=" mx-auto rounded-lg"/> */}
     </div>
@@ -56,14 +56,14 @@ function Products() {
 
         <div className="sm:flex justify-between items-center gap-4 py-4 hidden">
           <Cards
-            title="Biomagnetic Mattress"
-            iconSrc="images/prod/prod4.jpg"
+            title="Regular Biomagnetic Mattress"
+            iconSrc="images/prod/prod9.jpg"
             description="Single Regular Mattress + One Pillow (80+20 Magnets)"
             TotalPrice="7,500.00"
           />
 
           <Cards
-            title="Biomagnetic Mattress"
+            title="Premium Biomagnetic Mattress"
             iconSrc="images/prod/prod3.jpg"
             description="Single Premium Mattress + One Pillow (100+20 Magnets)"
             TotalPrice="11,000.00"
