@@ -74,10 +74,10 @@ function Footer() {
            <div className=" flex flex-col gap-3 items-start justify-start">
            <a href="/" className=" text-lg font-normal ">Contact</a>
             <a href="/" className=" text-lg font-normal ">News</a>
-            <a href="/" className=" text-lg font-normal ">Devices</a>
-            <a href="/" className=" text-lg font-normal ">Accessories</a>
+            <a href="/" className=" text-lg font-normal ">Who we are</a>
+            <a href="/privacy-policy" className=" text-lg font-normal ">Privacy Policy</a>
             <a href="/" className=" text-lg font-normal ">Certificates</a>
-            <a href="/" className=" text-lg font-normal ">Warranty extension 2+1</a>
+            <a href="/terms-conditions" className=" text-lg font-normal ">Terms & Conditions</a>
             <a href="/" className=" text-lg font-normal ">All about magnetotherapy</a>
             <a href="/" className=" text-lg font-normal ">3D pulsed magnetotherapy</a>
            </div>
