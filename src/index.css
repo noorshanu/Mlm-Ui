@@ -74,6 +74,11 @@ body{
   gap: 14.614px;
 }
 
+.box-s{
+  box-shadow: 0px 3.218px 3.218px 0px rgba(0, 0, 0, 0.25);
+
+ 
+}
 .hero-bg{
   background-image: url('../public/images/slider.png');
   background-size: cover;

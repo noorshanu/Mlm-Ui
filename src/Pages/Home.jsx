@@ -1,4 +1,4 @@
-import React from 'react'
+import {  useState,useEffect } from "react";
 
 
 import Biomag from '../components/Biomag'
@@ -11,8 +11,29 @@ import Footer from '../components/Footer'
 import Disclaimer from '../components/Disclaimer'
 import MenuBar from '../components/MenuBar'
 import SearchMenu from '../components/SearchMenu'
+import WelcomePopup from '../components/WelcomePopup'
 
 function Home() {
+
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = () => {
+    setIsPopupOpen(true);
+  };
+  
+  const closePopup = () => {
+    setIsPopupOpen(false);
+  };
+  
+  useEffect(() => {
+    // Auto trigger the popup after 3000 milliseconds (3 seconds)
+    const popupTimer = setTimeout(() => {
+      openPopup();
+    }, 3000);
+  
+    // Clear the timer when the component unmounts
+    return () => clearTimeout(popupTimer);
+  }, []);
   return (
    <>
    <div>
@@ -30,6 +51,7 @@ function Home() {
     <Footer/>
     <Disclaimer/>
    </div>
+   <WelcomePopup isOpen={isPopupOpen} onClose={closePopup}/>
    </>
   )
 }
