@@ -87,6 +87,10 @@ body{
   height: 700px;
 }
 
+.br-d{
+  border-radius: 1px 1px 6px 6px;
+}
+
 .hero-bg2{
   background-image: url('../public/images/slider2.png');
   background-size: cover;
