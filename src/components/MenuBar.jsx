@@ -42,7 +42,10 @@ function MenuBar() {
                 Rank Achievers
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Gallery
+                  <Link to='/gallery'>
+                  Gallery
+                  </Link>
+                
                 </p>
               
                

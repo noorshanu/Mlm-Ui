@@ -121,6 +121,9 @@ background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.5
   color:#008EF9 ;
   
 }
+.css-zjq1i3{
+  margin: auto;
+}
 
 .card__three::before, .card__three::after {
   position: absolute;
