@@ -55,7 +55,9 @@ function Products() {
           <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-2"></div>
         </div>
 
-        <div className=" py-4 hidden sm:block">
+        <div className=" py-4 hidden sm:block" data-aos="fade-right"
+     data-aos-offset="1500"
+     data-aos-easing="ease-in-sine">
           <Swiper
             slidesPerView={4}
             loop={true}
@@ -198,7 +200,9 @@ function Products() {
           <SliderNavigationButton id="nextEl" />
         </div>
 
-        <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4">
+        <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4" data-aos="fade-left"
+     data-aos-offset="1500"
+     data-aos-easing="ease-in-sine">
           <Cards
             title="Water pad "
             iconSrc="images/prod/prod5.png"
