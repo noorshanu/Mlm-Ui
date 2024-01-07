@@ -121,3 +121,31 @@ background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.5
   color:#008EF9 ;
   
 }
+
+.card__three::before, .card__three::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform 0.3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: "";
+  pointer-events: none;
+}
+.card__three::before {
+  transform-origin: left top;
+}
+.card__three::after {
+  transform-origin: right bottom;
+}
+.card__three:hover::before, .card__three:hover::after, .card__three:focus::before, .card__three:focus::after {
+  transform: scale3d(1, 1, 1);
+}
+
+.swiper-wrapper{
+  padding-bottom: 10px !important;
+  width: fit-content;
+}
+
