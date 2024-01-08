@@ -152,3 +152,15 @@ background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.5
   width: fit-content;
 }
 
+.bg-gall{
+  background-image: url('../public/images/gall.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.react-photo-gallery--gallery img{
+  border: 1px solid #a7a7a7;
+  border-radius: 6px;
+  padding: 2px;
+
+}

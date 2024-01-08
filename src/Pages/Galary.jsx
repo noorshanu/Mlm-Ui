@@ -25,7 +25,15 @@ function Galary() {
     <div className="">
          <SearchMenu />
       <MenuBar />
+
+      <div className="bg-gall justify-center flex items-center">
+          <h1 className=" text-2xl text-black uppercase font-bold mt-20"> gallery</h1>
+      </div>
    <div className=" container-wrapper py-4">
+    <h2 className=" py-4 text-lg font-medium text-center max-w-3xl mx-auto">
+    Embark on a visual journey through our gallery, where each image tells a story of craftsmanship, innovation, and the essence of our company's commitment to excellence.
+
+    </h2>
    <Gallery photos={photos} onClick={openLightbox} />
     <ModalGateway>
       {viewerIsOpen ? (
