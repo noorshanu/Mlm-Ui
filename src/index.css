@@ -162,5 +162,13 @@ background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.5
   border: 1px solid #a7a7a7;
   border-radius: 6px;
   padding: 2px;
+  width: 340px;
+  height: auto;
+  margin-bottom: 14px !important;
+
+}
+
+.react-photo-gallery--gallery div{
+justify-content: center;
 
 }
