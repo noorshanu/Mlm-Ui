@@ -56,8 +56,8 @@ function Products() {
         </div>
 
         <div className=" py-4 hidden sm:block" data-aos="fade-right"
-     data-aos-offset="1500"
-     data-aos-easing="ease-in-sine">
+     
+    >
           <Swiper
             slidesPerView={4}
             loop={true}
@@ -201,8 +201,8 @@ function Products() {
         </div>
 
         <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4" data-aos="fade-left"
-     data-aos-offset="1500"
-     data-aos-easing="ease-in-sine">
+    
+    >
           <Cards
             title="Water pad "
             iconSrc="images/prod/prod5.png"
