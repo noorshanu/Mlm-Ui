@@ -7,11 +7,11 @@ export default function WelcomePopup({ isOpen, onClose }) {
     <>
       {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
-          <div className="bg-white dark:bg-woodsmoke-950 p-8 max-w-3xl rounded">
+          <div className="bg-white dark:bg-woodsmoke-950 p-2 max-w-4xl rounded">
             <div className="flex justify-end">
-              <button onClick={onClose} className="  bg-[#00aef3] rounded-full p-2 mb-2">
+              {/* <button onClick={onClose} className="  bg-[#00aef3] rounded-full p-2 mb-2">
                 <FaTimes className="text-black" />
-              </button>
+              </button> */}
             </div>
 
             <div className="  ">
@@ -62,10 +62,10 @@ export default function WelcomePopup({ isOpen, onClose }) {
               all the products.
             </p>
 
-            {/* <button onClick={onClose} className="w-full btn-main space-x-[0.6em] py-2  text-base font-bold uppercase">
+            <button onClick={onClose} className="w-full btn-main space-x-[0.6em] py-2  text-base font-bold uppercase">
               i Understand
             </button>
-            */}
+           
 
             </div>
 
