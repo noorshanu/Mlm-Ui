@@ -61,7 +61,7 @@ function Hero() {
           <div className="hero-bg2">
             <div className="container-wrapper">
               <div className=" py-12 max-w-2xl h-full">
-           
+              <Card />
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Hero() {
           <div className="hero-bg3">
             <div className="container-wrapper">
               <div className=" py-12 max-w-2xl h-full">
-               
+              <Card />
               </div>
             </div>
           </div>

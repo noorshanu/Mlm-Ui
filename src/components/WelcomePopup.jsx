@@ -6,22 +6,18 @@ export default function WelcomePopup({ isOpen, onClose }) {
   return (
     <>
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
-          <div className="bg-white dark:bg-woodsmoke-950 p-2 max-w-4xl rounded">
-            <div className="flex justify-end">
-              {/* <button onClick={onClose} className="  bg-[#00aef3] rounded-full p-2 mb-2">
-                <FaTimes className="text-black" />
-              </button> */}
-            </div>
+        <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50 ">
+          <div className="bg-white dark:bg-woodsmoke-950 p-2 max-w-[100%] sm:max-w-4xl rounded mx-auto">
+           
 
             <div className="  ">
 
               <div className=" box-s border rounded-md">
               <div className=" px-8 py-3">
-              <h2 className=" text-center text-3xl font-bold my-5 capitalize text-[#00aef3]">
+              <h2 className=" text-center text-lg  sm:text-3xl font-bold my-5 capitalize text-[#00aef3]">
               ⚠️  PLEASE READ CAREFULLY  ⚠️
             </h2>
-            <p className="text-base ">
+            <p className=" text-sm sm:text-base">
               {" "}
              <strong>Unify Wellness Pvt. Ltd. </strong>  is an Indian Direct Selling Company.
               The company sells its products through the Direct selling method
@@ -62,7 +58,7 @@ export default function WelcomePopup({ isOpen, onClose }) {
               all the products.
             </p>
 
-            <button onClick={onClose} className="w-full btn-main space-x-[0.6em] py-2  text-base font-bold uppercase">
+            <button onClick={onClose} className="w-auto sm:w-full  btn-main space-x-[0.6em] py-2  px-14 text-base font-bold  mx-auto uppercase">
               i Understand
             </button>
            
