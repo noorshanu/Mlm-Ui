@@ -6,8 +6,8 @@ export default function WelcomePopup({ isOpen, onClose }) {
   return (
     <>
       {isOpen && (
-        <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50 ">
-          <div className="bg-white dark:bg-woodsmoke-950 p-2 max-w-[100%] sm:max-w-4xl rounded mx-auto">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 sm:m-0 m-2 ">
+          <div className="bg-white dark:bg-woodsmoke-950 p-2 max-w-full sm:max-w-3xl rounded mx-auto">
            
 
             <div className="  ">
@@ -34,25 +34,17 @@ export default function WelcomePopup({ isOpen, onClose }) {
             <p className="py-2 text-base font-medium">
              <strong> 3.</strong>  Neither the company gives you any kind of job nor you become the
               agent of the company. You don't even get any kind of fixed salary.
-              You start a Business simply by becoming an Independent Distributor
-              of the Company's products. You can earn money by selling these
-              products as per the Business Plan of the company.
+              You start a Business simply 
             </p>
             <p className="py-2 text-base font-medium">
              <strong>4.</strong> The relationship between you and the Company is that of an
               Independent principal to Principal contractor.
             </p>
 
-            <p className="py-2 text-base font-medium">
-              <strong>5. </strong> You can buy the product only from the Company's Authorised
-              Center (Franchisee, Branch, Mini Franchise, Galwaykart, and
-              Virtual Mini Franchise). You can not buy any products without a
-              Bill/ Invoice. If you buy a product from an Authorised Center, the
-              company notifies you by SMS on your registered mobile
-            </p>
+         
 
             <p className="py-2 text-base font-medium">
-             <strong>6.</strong> Refund Policy – You can cancel your Distributorship only as per
+             <strong>5.</strong> Refund Policy – You can cancel your Distributorship only as per
               the refund policy within 20 days of becoming a Galway Distributor
               (Direct Seller) . You can get your full money back by returning
               all the products.
