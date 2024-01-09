@@ -55,7 +55,7 @@ function Products() {
           <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-2"></div>
         </div>
 
-        <div className=" py-4 hidden sm:block" data-aos="fade-right"
+        <div className=" py-4 hidden sm:block" 
      
     >
           <Swiper
@@ -200,7 +200,7 @@ function Products() {
           <SliderNavigationButton id="nextEl" />
         </div>
 
-        <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4" data-aos="fade-left"
+        <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4" 
     
     >
           <Cards

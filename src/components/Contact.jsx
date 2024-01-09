@@ -7,13 +7,10 @@ function Contact() {
     <div className=' max-w-5xl mx-auto'>
 
         <div className=' flex justify-between flex-col sm:flex-row  '>
-            <img src="images/contact.png" alt="" className='h-[450px] p-7 sm:p-0 sm:h-[550px]' data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" />
+            <img src="images/contact.png" alt="" className='h-[450px] p-7 sm:p-0 sm:h-[550px]' 
+    />
 
-            <div data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+            <div >
                 <h1 className='text-[#303A42] text-4xl font-bold  pb-6 '>Contact us</h1>
                 <div className=" bg-[#00aef3] h-[4px] w-[150px]  mb-2"></div>
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import AboutUsDropdown from './AboutUsDropdown';
 
 function MenuBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,15 +28,28 @@ function MenuBar() {
                Home
                </Link>  
               </p>
-              <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
-                About us
+              {/* <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
+               <Link to='/about'>
+               About us
+               </Link>
+                
+                </p> */}
+                <p>
+                  <AboutUsDropdown/>
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                
+                <Link to='/products'>
                 Products
+                </Link>
+              
                 </p>
 
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                <Link to='/legal'>
                 Legal
+                </Link>
+                
                 </p>
 
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>

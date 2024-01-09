@@ -6,7 +6,12 @@ import Disclaimer from "../components/Disclaimer";
 function About() {
   return (
     <>
-    
+        <SearchMenu />
+      <MenuBar />
+    <h1>about</h1>
+
+    <Footer />
+      <Disclaimer />
     </>
   )
 }

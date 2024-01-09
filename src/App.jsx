@@ -9,6 +9,9 @@ import Privacy from "./Pages/Privacy";
 import Terms from './Pages/Terms'
 import Returns from "./Pages/Returns";
 import Galary from "./Pages/Galary";
+import About from "./Pages/About";
+import Products from "./Pages/Products";
+import Legal from "./Pages/Legal";
 
 function App() {
   return (
@@ -16,6 +19,14 @@ function App() {
    <Router>
     <Routes>
     <Route path="/" element={ <Home/>}/>
+    <Route path="/about" element={ <About/>}/>
+    <Route path="/legal" element={ <Legal/>}/>
+
+    <Route path="/products" element={ <Products/>}/>
+
+
+
+
     <Route path="/gallery" element={ <Galary/>}/>
 
       <Route path="/privacy-policy" element={ <Privacy/>}/>
