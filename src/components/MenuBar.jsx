@@ -65,7 +65,10 @@ function MenuBar() {
                
            
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Contact us
+                  <Link to='/contact-us'>
+                  Contact us
+                  </Link>
+                
                 </p>
             </div>
             <div className='md:hidden'>
