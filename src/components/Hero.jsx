@@ -60,8 +60,33 @@ function Hero() {
         <SwiperSlide>
           <div className="hero-bg2">
             <div className="container-wrapper">
-              <div className=" py-12 max-w-2xl h-full">
-              <Card />
+              <div className=" py-12 max-w-2xl h-full mx-auto">
+                <div className=" flex justify-center mx-auto items-center flex-col mt-[20%]">
+                  <h2 className=" text-white font-sfpro text-[50px] text-center font-bold lh-1_1 mb-3">
+                    Empowering Health Through Innovative Solutions
+                  </h2>
+
+                  <p>
+                    {" "}
+                    <p className="text-lg text-center  text-black mb-4">
+                      At Unify Wellness Pvt Ltd, we are dedicated to enhancing
+                      your health and wellbeing through innovative healthcare
+                      solutions. Our mission is to offer products that blend the
+                      latest in wellness technology with everyday usability,
+                      ensuring that you experience optimum health benefits
+                      seamlessly integrated into your daily life.
+                    </p>
+                  </p>
+
+                  <div className=" flex justify-center gap-6 items-center">
+                    <a href="/" className="btn-main px-8 py-2 font-bold">
+                      Products
+                    </a>
+                    <a href="/" className="btn-main px-8 py-2 font-bold">
+                      Gallery
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -70,7 +95,7 @@ function Hero() {
           <div className="hero-bg3">
             <div className="container-wrapper">
               <div className=" py-12 max-w-2xl h-full">
-              <Card />
+                <Card />
               </div>
             </div>
           </div>
