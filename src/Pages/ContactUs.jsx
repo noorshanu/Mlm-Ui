@@ -21,8 +21,8 @@ function ContactUs() {
           <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-8"></div>
         </div>
 
-        <div className=" flex justify-evenly flex-col sm:flex-row  ">
-          <div className=" max-w-xl mx-auto mt-4 sm:mt-12">
+        <div className=" flex justify-between flex-col sm:flex-row  ">
+          <div className=" max-w-2xl mx-auto mt-4 sm:mt-12">
             <div>
               <h1 className=" text-4xl font-bold pb-4 " >Company Address</h1>
             </div>
