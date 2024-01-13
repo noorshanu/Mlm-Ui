@@ -13,7 +13,7 @@ function SearchMenu() {
               href="/"
               className=" text-sm font-sfpro font-normal uppercase  text-[#000000]"
             >
-              WHO WE ARE /
+              privicy&Policy /
             </a>
             <a
               href="/"
