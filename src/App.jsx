@@ -13,6 +13,8 @@ import About from "./Pages/About";
 import Products from "./Pages/Products";
 import Legal from "./Pages/Legal";
 import ContactUs from "./Pages/ContactUs";
+import GrievanceCell from "./Pages/GrievanceCell";
+import GrievanceRedressal from "./Pages/GrievanceRedressal";
 
 function App() {
   return (
@@ -33,6 +35,11 @@ function App() {
     <Route path="/gallery" element={ <Galary/>}/>
 
       <Route path="/privacy-policy" element={ <Privacy/>}/>
+      <Route path="/grievance-cell" element={ <GrievanceCell/>}/>
+      <Route path="/grievance-redressal" element={ <GrievanceRedressal/>}/>
+
+
+
       <Route path="/terms-conditions" element={ <Terms/>}/>
       <Route path="/return-policy" element={ <Returns/>}/>
 

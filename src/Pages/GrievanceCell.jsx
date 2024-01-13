@@ -1,9 +1,19 @@
 import React from "react";
+import MenuBar from "../components/MenuBar";
+import SearchMenu from "../components/SearchMenu";
+import Footer from "../components/Footer";
 
 function GrievanceCell() {
   return (
     <>
-      <section>
+    <SearchMenu/>
+    <MenuBar/>
+    
+      <section className="container-wrapper mx-auto py-12">
+
+      <div>
+            <h1 className=" text-2xl font-bold pb-2"> Grievance Cell</h1>
+          </div>
         <p>
           <strong>1. </strong>Customer / Distributor can make Grievances in
           either of the mentioned modes – Calls / Written Application / Email /
@@ -36,7 +46,7 @@ function GrievanceCell() {
           <br />
         </p>
 
-        <p style="padding-top:10px;">
+        {/* <p style={{ paddingTop: "10px" }}>
           <strong>Nodal Officer - 1</strong>
           <br />
           Name: Mr. ShashiKant
@@ -48,7 +58,7 @@ function GrievanceCell() {
           Email ID: info@rootvedawellness.com
         </p>
 
-        <p style="padding-top:10px;">
+        <p style={{ paddingTop: "10px" }}>
           <strong>Nodal Officer - 2</strong>
           <br />
           Name: Mr. Lavkush Vishwakarma
@@ -58,8 +68,9 @@ function GrievanceCell() {
           Mobile Number: 8318121767
           <br />
           Email ID: info@rootvedawellness.com
-        </p>
+        </p> */}
       </section>
+      <Footer/>
     </>
   );
 }
