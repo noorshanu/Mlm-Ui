@@ -12,6 +12,7 @@ import Disclaimer from '../components/Disclaimer'
 import MenuBar from '../components/MenuBar'
 import SearchMenu from '../components/SearchMenu'
 import WelcomePopup from '../components/WelcomePopup'
+import Cta from "../components/Cta";
 
 function Home() {
 
@@ -46,7 +47,7 @@ function Home() {
     <About/>
     <Vision/>
     <Products/>
-
+<Cta/>
     {/* <Contact/> */}
     <Footer/>
     <Disclaimer/>
