@@ -39,9 +39,9 @@ function MenuBar() {
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 
-                <Link to='/products'>
+                <a href='#prod'>
                 Products
-                </Link>
+                </a>
               
                 </p>
 

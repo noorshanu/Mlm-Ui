@@ -27,12 +27,11 @@ function ContactUs() {
               <h1 className=" text-4xl font-bold pb-4 " >Company Address</h1>
             </div>
             <h2 className=" text-lg py-2">
-              <strong>Address : </strong>  SA - 1/17, C-1, 3rd Floor, Dosa Street building, <br /> Near
-              Kali Mata Mandir, Pandeypur,Varanasi Varanasi (U.P) India
+              <strong>Address : </strong>   55,2nd floor, Lane 2 , westend marg ,saidullajab, <br />near saket metro station,new delhi ,110030
             </h2>
-
-            <p className=" text-lg py-2"> <strong>Phone : </strong>  +91-9044929528</p>
-            <p className=" text-lg py-2"><strong>Email :</strong> info@rootvedawellness.com</p>
+         
+            <p className=" text-lg py-2"> <strong>Phone : </strong>  +91-0000000000</p>
+            <p className=" text-lg py-2"><strong>Email :</strong> info@unifywellness.com</p>
 
             <div className=" flex items-center gap-2 py-4">
             <a href="/" className="  text-black text-lg hover:text-[#000000]">

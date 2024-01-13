@@ -47,7 +47,7 @@ function Home() {
     <Vision/>
     <Products/>
 
-    <Contact/>
+    {/* <Contact/> */}
     <Footer/>
     <Disclaimer/>
    </div>

@@ -13,7 +13,7 @@ function Products() {
     <SearchMenu />
     <MenuBar />
 
-    <div className="container-wrapper">
+    <div className="container-wrapper" >
 
     <div className=" text-center ">
           <h1 className="text-[24px] sm:text-[50px] font-bold text-black text-center mt-2 ">

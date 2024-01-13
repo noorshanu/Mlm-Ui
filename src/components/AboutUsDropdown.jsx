@@ -43,14 +43,14 @@ function AboutUsDropdown({ setSidebarVisibility }) {
               Our Team
             </a>
 
-            <a
+            {/* <a
               href="/team"
               target="_blank"
               rel="noreferrer"
               className="px-4"
             >
               Our Brand
-            </a>
+            </a> */}
             <a
               href="https://whitepaper.deelance.com/"
               target="_blank"

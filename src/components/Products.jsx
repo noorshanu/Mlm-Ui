@@ -46,7 +46,7 @@ const Cards = ({
 
 function Products() {
   return (
-    <section className=" py-4 sm:py-14">
+    <section className=" py-4 sm:py-14" id="prod">
       <div className="container-wrapper">
         <div className=" text-center ">
           <h1 className="text-[24px] sm:text-[50px] font-bold text-black text-center mt-2 ">
