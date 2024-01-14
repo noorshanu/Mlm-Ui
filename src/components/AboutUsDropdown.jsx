@@ -52,7 +52,7 @@ function AboutUsDropdown({ setSidebarVisibility }) {
               Our Brand
             </a> */}
             <a
-              href="https://whitepaper.deelance.com/"
+              href=""
               target="_blank"
               rel="noreferrer"
               className="px-4"
