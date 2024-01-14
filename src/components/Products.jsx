@@ -227,7 +227,7 @@ function Products() {
           <Cards
             title="Neck Massager"
             iconSrc="images/prod/prod8.png"
-            description=" the massager help to increase blood flow to the neck muscles, promoting healing and relaxation"
+            description="massager help to increase blood flow to the neck muscles."
             TotalPrice="1,250.00"
           />
         </div>

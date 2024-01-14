@@ -1,5 +1,5 @@
 import React from "react";
-import { FaXTwitter,FaInstagram ,FaYoutube} from "react-icons/fa6";
+import { FaXTwitter, FaInstagram, FaYoutube } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
       <div className="container-wrapper mx-auto">
         <div className=" flex flex-col sm:flex-row justify-between gap-28">
           <div>
-            <img src="images/logo.png" alt="" className=" mb-3"/>
+            <img src="images/logo.png" alt="" className=" mb-3" />
 
             <p className=" max-w-full pr-4 sm:pr-0 sm:max-w-sm mb-2 text-xs font-normal">
               We merge the latest in wellness technology with everyday
@@ -18,71 +18,97 @@ function Footer() {
               partner on the path to a healthier, happier life.
             </p>
             <div className=" flex items-center gap-2 pt-2">
-            <a href="/" className="  text-lg text-[#000000]">
-              <FaXTwitter />
-            </a>
-            <a href="/" className="  text-lg text-[#000000]">
-            <FaFacebook />
-            </a>
-            <a href="/" className="  text-lg text-[#000000]"> 
-            <FaInstagram />
-            </a>
-            <a href="/" className=" text-lg text-[#000000]">
-            <FaYoutube />
-            </a>
-          </div>
-          </div>
-
-          <div>
-            <h2 className=" text-xl text-black font-bold mb-4">Magnetotherapy Biomag</h2>
-
-           <div className=" flex flex-col gap-3 items-start justify-start">
-           <a href="/" className=" text-lg font-normal ">Favourite sets</a>
-            <a href="/" className=" text-lg font-normal ">Applicators</a>
-            <a href="/" className=" text-lg font-normal ">Devices</a>
-            <a href="/" className=" text-lg font-normal ">Accessories</a>
-            <a href="/" className=" text-lg font-normal ">Certificates</a>
-            <a href="/" className=" text-lg font-normal ">Warranty extension 2+1</a>
-            <a href="/" className=" text-lg font-normal ">All about magnetotherapy</a>
-            <a href="/" className=" text-lg font-normal ">3D pulsed magnetotherapy</a>
-           </div>
-
-           
+              <a href="/" className="  text-lg text-[#000000]">
+                <FaXTwitter />
+              </a>
+              <a href="/" className="  text-lg text-[#000000]">
+                <FaFacebook />
+              </a>
+              <a href="/" className="  text-lg text-[#000000]">
+                <FaInstagram />
+              </a>
+              <a href="/" className=" text-lg text-[#000000]">
+                <FaYoutube />
+              </a>
+            </div>
           </div>
 
           <div>
-            <h2 className=" text-xl text-black font-bold mb-4">Encyclopedia</h2>
+            <h2 className=" text-xl text-black font-bold mb-4">Products</h2>
 
-           <div className=" flex flex-col gap-3 items-start justify-start">
-           <a href="/" className=" text-lg font-normal ">Arthrosis of the joints</a>
-            <a href="/" className=" text-lg font-normal ">Carpal tunnel syndrome</a>
-            <a href="/" className=" text-lg font-normal ">Devices</a>
-            <a href="/" className=" text-lg font-normal ">Accessories</a>
-            <a href="/" className=" text-lg font-normal ">Certificates</a>
-            <a href="/" className=" text-lg font-normal ">Warranty extension 2+1</a>
-            <a href="/" className=" text-lg font-normal ">All about magnetotherapy</a>
-            <a href="/" className=" text-lg font-normal ">3D pulsed magnetotherapy</a>
-           </div>
+            <div className=" flex flex-col gap-3 items-start justify-start">
+              <a href="/" className=" text-lg font-normal ">
+                Biomagnetic Mattress
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                Foot Massager
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                Bracelet
+              </a>
 
-           
+              <a href="/" className=" text-lg font-normal ">
+                Water pad
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                Knee Cap
+              </a>
+
+              <a href="/" className=" text-lg font-normal ">
+                Neck Massager
+              </a>
+            </div>
           </div>
 
+          <div>
+            <h2 className=" text-xl text-black font-bold mb-4">
+              Important Links
+            </h2>
+
+            <div className=" flex flex-col gap-3 items-start justify-start">
+              <a href="/" className=" text-lg font-normal ">
+                Home
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                About us
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                Gallery
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                Team
+              </a>
+              <a href="/" className=" text-lg font-normal ">
+                Rank Achievers
+              </a>
+            </div>
+          </div>
 
           <div>
-            <h2 className=" text-xl text-black font-bold mb-4">More information</h2>
+            <h2 className=" text-xl text-black font-bold mb-4">
+              More information
+            </h2>
 
-           <div className=" flex flex-col gap-3 items-start justify-start">
-           <a href="/" className=" text-lg font-normal ">Contact</a>
-            <a href="/" className=" text-lg font-normal ">News</a>
-            <a href="/" className=" text-lg font-normal ">Who we are</a>
-            <a href="/privacy-policy" className=" text-lg font-normal ">Privacy Policy</a>
-            <a href="/" className=" text-lg font-normal ">Certificates</a>
-            <a href="/terms-conditions" className=" text-lg font-normal ">Terms & Conditions</a>
-            <a href="/" className=" text-lg font-normal ">All about magnetotherapy</a>
-            <a href="/" className=" text-lg font-normal ">3D pulsed magnetotherapy</a>
-           </div>
-
-           
+            <div className=" flex flex-col gap-3 items-start justify-start">
+              <a href="/contact-us" className=" text-lg font-normal ">
+                Contact us
+              </a>
+              <a href="/grievance-cell" className=" text-lg font-normal ">
+                Grievance Cell
+              </a>
+              <a href="/grievance-redressal" className=" text-lg font-normal ">
+                Grievance Redressal
+              </a>
+              <a href="/privacy-policy" className=" text-lg font-normal ">
+                Privacy Policy
+              </a>
+              <a href="/legal" className=" text-lg font-normal ">
+                Legal
+              </a>
+              <a href="/terms-conditions" className=" text-lg font-normal ">
+                Terms & Conditions
+              </a>
+            </div>
           </div>
         </div>
       </div>
