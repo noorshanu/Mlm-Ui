@@ -11,27 +11,27 @@ function SearchMenu() {
           <div className=" flex items-center gap-3">
             <a
               href="/privacy-policy" target='_blank'
-              className=" text-sm font-sfpro font-normal uppercase  text-[#000000]"
+              className=" text-xs sm:text-sm font-sfpro font-normal uppercase  text-[#000000]"
             >
-              privicy&Policy /
+              privicy&Policy 
             </a>
             <a
               href="/terms-conditions" target='_blank'
-              className=" text-sm font-sfpro font-normal uppercase  text-[#000000]"
+              className=" text-xs sm:text-sm font-sfpro font-normal uppercase  text-[#000000]"
             >
-              Terms /
+              Terms 
             </a>
             <a
               href="/grievance-cell"
-              className=" text-sm font-sfpro font-normal uppercase  text-[#000000]"
+              className=" text-xs sm:text-sm font-sfpro font-normal uppercase  text-[#000000]"
             >
-           Grievance cell /
+           Grievance cell 
             </a>
             <a
               href="/grievance-redressal"
-              className=" text-sm font-sfpro font-normal uppercase  text-[#000000]"
+              className=" text-xs sm:text-sm font-sfpro font-normal uppercase  text-[#000000]"
             >
-           Grievance Redressal /
+           Grievance Redressal 
             </a>
           </div>
 

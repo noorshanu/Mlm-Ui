@@ -17,7 +17,7 @@ function MenuBar() {
           <div>
             <Link to='/'>
             
-            <img src="images/logo.png" alt="" className='h-[80px] p-3' />
+            <img src="images/logo.png" alt="" className='sm:h-[95px] h-[85px] p-3' />
             </Link>
           </div>
           <div className='flex items-center gap-6'>
