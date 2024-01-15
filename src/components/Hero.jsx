@@ -93,7 +93,7 @@ function Hero() {
             <div className="container-wrapper">
               <div className=" py-12 max-w-2xl h-full">
                 <div className=" mt-24">
-                  <p className=" text-[#008EF9] text-2xl font-medium capitalize mb-2">
+                  <p className=" text-[#000] text-2xl font-medium capitalize mb-2">
                     Personalized Wellness Programs
                   </p>
                   <h2 className=" text-white font-sfpro text-[50px] font-bold lh-1_1 mb-3">
