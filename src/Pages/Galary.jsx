@@ -34,7 +34,7 @@ function Galary() {
     Embark on a visual journey through our gallery, where each image tells a story of craftsmanship, innovation, and the essence of our company's commitment to excellence.
 
     </h2>
-   <Gallery photos={photos} onClick={openLightbox} />
+   {/* <Gallery photos={photos} onClick={openLightbox} />
     <ModalGateway>
       {viewerIsOpen ? (
         <Modal onClose={closeLightbox}>
@@ -48,7 +48,8 @@ function Galary() {
           />
         </Modal>
       ) : null}
-    </ModalGateway>
+    </ModalGateway> */}
+    <h1 className=" text-center text-5xl">Coming Soon....</h1>
    </div>
 
     <Footer />
