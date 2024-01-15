@@ -8,7 +8,7 @@ function SearchMenu() {
     <div className='container-wrapper flex justify-center sm:justify-end items-center py-1'>
      
         <div className=" flex flex-col sm:flex-row items-center gap-6">
-          <div className=" flex items-center gap-3">
+          <div className=" hidden sm:flex items-center gap-3 ">
             <a
               href="/privacy-policy" target='_blank'
               className=" text-xs sm:text-sm font-sfpro font-normal uppercase  text-[#000000]"

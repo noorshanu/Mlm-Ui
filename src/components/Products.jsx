@@ -126,23 +126,35 @@ function Products() {
             modules={[Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide>
+             <SwiperSlide>
+              {" "}
               <Cards
-                title="Biomagnetic Mattress"
-                iconSrc="images/prod/prod4.png"
+                title="Regular Biomagnetic Mattress"
+                iconSrc="images/prod/prod9.png"
                 description="Single Regular Mattress + One Pillow (80+20 Magnets)"
                 TotalPrice="7,500.00"
               />
             </SwiperSlide>
             <SwiperSlide>
+              {" "}
               <Cards
-                title="Biomagnetic Mattress"
+                title="Premium Biomagnetic Mattress"
                 iconSrc="images/prod/prod3.png"
                 description="Single Premium Mattress + One Pillow (100+20 Magnets)"
                 TotalPrice="11,000.00"
               />
             </SwiperSlide>
             <SwiperSlide>
+              {" "}
+              <Cards
+                title="Foot Massager "
+                iconSrc="images/prod/prod1.png"
+                description="Relieves foot tension, pain, and chronic fatigue ."
+                TotalPrice="1,500.00"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              {" "}
               <Cards
                 title="Bracelet"
                 iconSrc="images/prod/prod2.png"
@@ -151,6 +163,7 @@ function Products() {
               />
             </SwiperSlide>
             <SwiperSlide>
+              {" "}
               <Cards
                 title="Foot Massager "
                 iconSrc="images/prod/prod1.png"
@@ -158,40 +171,6 @@ function Products() {
                 TotalPrice="1,500.00"
               />
             </SwiperSlide>
-
-            <SwiperSlide>
-              <Cards
-                title="Water pad "
-                iconSrc="images/prod/prod5.png"
-                description="ultimate solution  to stay hydrated for improving thier  health "
-                TotalPrice="800.00"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                title="Knee Cap Single Knee "
-                iconSrc="images/prod/prod6.png"
-                description="it's designed for any and all knee injuries,arthritis,ACL tears etc"
-                TotalPrice="2,000.00"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                title="Posture Corrector"
-                iconSrc="images/prod/prod7.png"
-                description="it's to mold seamlessly with the upper and middle back support ."
-                TotalPrice="2,500.00"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                title="Neck Massager"
-                iconSrc="images/prod/prod8.png"
-                description=" the massager help to increase blood flow to the neck muscles, promoting healing and relaxation"
-                TotalPrice="1,250.00"
-              />
-            </SwiperSlide>
-
             
           </Swiper>
         </div>

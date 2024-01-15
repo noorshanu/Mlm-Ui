@@ -88,21 +88,52 @@ function MenuBar() {
         {isMenuOpen && (
           <div className='md:hidden'>
          <div className=' flex flex-col gap-4 menu'>
-         <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase'>
-                Home 
+         <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase text-end'>
+               <Link to='/'>
+               Home
+               </Link>  
               </p>
-              <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
-                About us
+              {/* <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
+               <Link to='/about'>
+               About us
+               </Link>
+                
+                </p> */}
+                <p className='text-end ml-auto'>
+                  <AboutUsDropdown/>
                 </p>
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
+                
+                <a href='#prod'>
                 Products
-                </p>
+                </a>
               
+                </p>
+
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
+                <Link to='/legal'>
+                Legal
+                </Link>
+                
+                </p>
+
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
+                Rank Achievers
+                </p>
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
+                  <Link to='/gallery'>
+                  Gallery
+                  </Link>
+                
+                </p>
               
                
            
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Contact
+                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
+                  <Link to='/contact-us'>
+                  Contact us
+                  </Link>
+                
                 </p>
 
          </div>
