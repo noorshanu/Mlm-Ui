@@ -45,7 +45,7 @@ export default function WelcomePopup({ isOpen, onClose }) {
 
             <p className="py-2 text-base font-medium">
              <strong>5.</strong> Refund Policy – You can cancel your Distributorship only as per
-              the refund policy within 20 days of becoming a Galway Distributor
+              the refund policy within 20 days of becoming a  Distributor
               (Direct Seller) . You can get your full money back by returning
               all the products.
             </p>
