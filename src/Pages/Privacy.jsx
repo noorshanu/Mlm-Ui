@@ -180,6 +180,12 @@ function Privacy() {
               practices of this site or your dealings with this website, you can
               contact us.
             </p>
+        
+        <p>Email ID: director@unifywellness.com</p>
+        <p>
+          Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
+          metro station,new delhi ,110030
+        </p>
           </div>
         </div>
       </section>
