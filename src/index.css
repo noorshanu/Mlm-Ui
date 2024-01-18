@@ -180,3 +180,9 @@ background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.5
 justify-content: center;
 
 }
+
+.swiper-pagination-bullet{
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #fff !important;
+}
