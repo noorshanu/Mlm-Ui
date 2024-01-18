@@ -118,7 +118,7 @@ function MenuBar() {
                 </p>
 
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
-                Rank Achievers
+                Business Plan 
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
                   <Link to='/gallery'>
