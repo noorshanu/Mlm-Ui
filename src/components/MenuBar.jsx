@@ -21,7 +21,7 @@ function MenuBar() {
             </Link>
           </div>
           <div className='flex items-center gap-6'>
-            <div className='hidden md:flex gap-6 menu'>
+            <div className='hidden md:flex gap-6 menu items-center'>
               {/* Desktop Navigation */}
               <p className='text-black cursor-pointer hover:text-black underline text-sm uppercase'>
                <Link to='/'>
@@ -70,6 +70,8 @@ function MenuBar() {
                   </Link>
                 
                 </p>
+                <a href="/" className=' btn-main py-1 px-8 font-semibold'> Log In</a>
+                <a href="/" className=' btn-main py-1 px-8 font-semibold'> Sign Up</a>
             </div>
             <div className='md:hidden'>
               {/* Mobile Navigation with Hamburger Icon */}
