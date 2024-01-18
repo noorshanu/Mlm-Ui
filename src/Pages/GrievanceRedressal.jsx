@@ -6,12 +6,12 @@ import Footer from "../components/Footer";
 function GrievanceRedressal() {
   return (
     <>
-    <SearchMenu/>
-    <MenuBar/>
+      <SearchMenu />
+      <MenuBar />
       <div class="container-wrapper py-12">
-      <div>
-            <h1 className=" text-2xl font-bold pb-2">Grievance Redressal</h1>
-          </div>
+        <div>
+          <h1 className=" text-2xl font-bold pb-2">Grievance Redressal</h1>
+        </div>
         <p>
           This policy on Grievance Redressal is set out as a mechanism available
           within the organization to enable the customers &amp; Business
@@ -34,7 +34,7 @@ function GrievanceRedressal() {
           channels:
         </p>
 
-        <ul style ={{paddingLeft:'0px'}}>
+        <ul style={{ paddingLeft: "0px" }}>
           <li>
             <i class="fa fa-hand-o-right"></i> Complaint in Person: A customer
             can lodge a complaint in person during working hours at Customer
@@ -46,48 +46,48 @@ function GrievanceRedressal() {
           <li>
             <i class="fa fa-hand-o-right"></i> Complaints through post / email:
             Customers can also submit their grievances by post at the following
-            address or through email at   directors@unifywellness.com by giving
+            address or through email at directors@unifywellness.com by giving
             full disclosures and details of the complainant and giving specific
             instances of the cause of complaint.{" "}
           </li>
         </ul>
 
         <h5>The Customer Service Department</h5>
-        <ul   >
-          <li style ={{lineHeight:'2'}}>
+        <ul>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
-            Company Address - 
+            Company Address -
             <br />
-            <p>Ph. , Mail ID -    </p>
+            <p>Ph. , Mail ID - </p>
           </li>
 
-          <li style ={{lineHeight:'2'}}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             The telephone numbers, complete address and email address etc. will
             be prominently displayed on the unify Wellness Pvt. Ltd. website
             www.unifywellness.com for ease of contact by the customers.
           </li>
 
-          <li style ={{lineHeight:'2'}}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             Grievances lodged through the web site of the company. Company has
             introduced a web based mechanism, for lodging Complaints /
             Grievances by customers. This is known as Grievance portal
-            (www.unifywellness.com ) Customers may make use of the said
-            Portal to communicate their grievances.
+            (www.unifywellness.com ) Customers may make use of the said Portal
+            to communicate their grievances.
           </li>
         </ul>
 
         <h5>RESOLUTION OF COMPLAINTS / GRIEVANCES</h5>
-        <ul style ={{paddingLeft:'0px'}}>
-          <li style ={{lineHeight:'2'}}>
+        <ul style={{ paddingLeft: "0px" }}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             Any complaint through e-mail / letters / in - person shall be
             acknowledged promptly after receipt, at the company corporate
             office.
           </li>
 
-          <li style ={{lineHeight:'2'}}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             The Complaints will be registered in the Customer Grievance Register
             (CGR) maintained electronically and / or physically, and shall
@@ -96,7 +96,7 @@ function GrievanceRedressal() {
             complaint etc.
           </li>
 
-          <li style ={{lineHeight:'2'}}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             The Grievance Redressal Committee (GRC) of company will take steps
             to redress the grievances with care and diligence, normally within
@@ -104,7 +104,7 @@ function GrievanceRedressal() {
             complaints.
           </li>
 
-          <li style ={{lineHeight:'2'}}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             If the complainant is not satisfied with the reply / action /
             resolution given by Grievance Redressal Committee (GRC), he / she
@@ -112,7 +112,7 @@ function GrievanceRedressal() {
             action on the same.
           </li>
 
-          <li style ={{lineHeight:'2'}}>
+          <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
             The Nodal Officer has a time of 15 days to resolve the Grievance
             from the date of receiving of Grievance. Details of Nodal Officer
@@ -120,13 +120,15 @@ function GrievanceRedressal() {
           </li>
         </ul>
 
-        <p  >Name:-</p>
-        <p  >Mobile Number: </p>
-        <p  >
-          Email ID: 
+        <p>Name:-</p>
+        <p>Mobile Number: </p>
+        <p>Email ID: director@unifywellness.com</p>
+        <p>
+          Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
+          metro station,new delhi ,110030
         </p>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
