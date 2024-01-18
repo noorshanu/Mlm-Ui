@@ -1,14 +1,14 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SliderNavigationButton from "./SliderNavigationButton";
+
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
-import { Pagination } from "swiper/modules";
+import 'swiper/css/pagination';
+
 // import required modules
-import { Autoplay, Navigation } from "swiper/modules";
-import "swiper/css/pagination";
+import { Autoplay,Pagination  } from "swiper/modules";
+
 
 const Cards = ({
   iconSrc,
@@ -62,7 +62,9 @@ function Products() {
             slidesPerView={4}
             loop={true}
             spaceBetween={30}
-          
+            pagination={{
+              clickable: true,
+            }}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
@@ -119,11 +121,14 @@ function Products() {
         </div>
         <div className=" block sm:hidden ">
           <Swiper
-            navigation={{
-              nextEl: "#nextEl",
-              prevEl: "#prevEl",
+            pagination={{
+              clickable: true,
             }}
-            modules={[Navigation]}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Pagination, Autoplay]}
             className="mySwiper"
           >
              <SwiperSlide>
@@ -174,10 +179,7 @@ function Products() {
             
           </Swiper>
         </div>
-        <div className="flex sm:hidden items-center space-x-5 justify-center">
-          <SliderNavigationButton id="prevEl" className="rotate-180" />
-          <SliderNavigationButton id="nextEl" />
-        </div>
+     
 
         <div className=" hidden sm:flex justify-between items-center gap-4 py-4 mt-4" 
     
