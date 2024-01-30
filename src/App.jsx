@@ -15,6 +15,7 @@ import Legal from "./Pages/Legal";
 import ContactUs from "./Pages/ContactUs";
 import GrievanceCell from "./Pages/GrievanceCell";
 import GrievanceRedressal from "./Pages/GrievanceRedressal";
+import Team from "./Pages/Team";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
 
     <Route path="/products" element={ <Products/>}/>
+    <Route path="/team" element={ <Team/>}/>
 
 
 
