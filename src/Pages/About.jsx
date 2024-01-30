@@ -2,6 +2,7 @@ import MenuBar from "../components/MenuBar";
 import SearchMenu from "../components/SearchMenu";
 import Footer from "../components/Footer";
 import Disclaimer from "../components/Disclaimer";
+import CtaAbout from "../components/CtaAbout";
 
 function About() {
   return (
@@ -78,6 +79,7 @@ function About() {
             </p>
           </div>
         </div>
+        <CtaAbout/>
       </div>
       <Footer />
       <Disclaimer />
