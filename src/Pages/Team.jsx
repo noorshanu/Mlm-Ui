@@ -54,6 +54,37 @@ function Team() {
               </p>
             </div>
           </div>
+
+
+          <div className=" flex justify-evenly  mt-[4rem]">
+        
+
+            <div className=" max-w-xl">
+              <h2 className=" text-2xl font-sfpro font-semibold mb-2">
+              Mastering Operational Excellence and Team Leadership
+              </h2>
+              <p className=" px-4 py-2 btn-main w-[205px] font-sfpro font-bold my-4">
+                Director of Unify Wellness{" "}
+              </p>
+
+              <p className=" text-lg pb-2">
+              Teja, Director of Operations at Unify Wellness, brings a dynamic blend of operational expertise and business management skills. With over 4 years of experience in leading operational roles, Teja has been instrumental in shaping the operational backbone of Unify Wellness, driving efficiency, and fostering a culture of excellence.
+              </p>
+
+              <p className=" text-lg">
+              Teja's career trajectory in business operations has seen her excel in optimizing processes, managing large-scale operations, and leading diverse teams. Her approach to operational management is characterized by a focus on innovation, efficiency, and sustainability. At Unify Wellness, Teja has been pivotal in ensuring that every operational aspect runs smoothly and effectively, contributing significantly to the company's growth and stability
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="images/noor.jpg"
+                alt=""
+                className="h-[400px] p-4 border rounded-md"
+              />
+              <p className=" text-2xl font-bold text-center">TEJA</p>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
