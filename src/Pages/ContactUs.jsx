@@ -13,7 +13,7 @@ function ContactUs() {
     <section>
       <SearchMenu />
       <MenuBar />
-      <div className="container-wrapper py-8">
+      <div className="container-wrapper py-8 mx-auto">
         <div className=" text-center ">
           <h1 className="text-[24px] sm:text-[50px] font-bold text-black text-center mt-2  ">
             Contact us
@@ -21,8 +21,8 @@ function ContactUs() {
           <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-8"></div>
         </div>
 
-        <div className=" flex justify-between flex-col sm:flex-row  ">
-          <div className=" max-w-2xl mx-auto mt-4 sm:mt-12">
+        <div className=" flex justify-evenly flex-col sm:flex-row  ">
+          <div className=" max-w-2xl  mt-4 sm:mt-12">
             <div>
               <h1 className=" text-4xl font-bold pb-4 " >Company Address</h1>
             </div>

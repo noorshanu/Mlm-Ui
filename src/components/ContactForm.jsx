@@ -23,8 +23,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form className=" mx-auto mt-8 sm:p-0 px-7" onSubmit={handleSubmit}>
-      <div className=" flex flex-col sm:flex-row justify-start items-start sm:items-center gap-6 mb-4">
+    <form className=" mx-auto mt-8 sm:p-4 px-7 border rounded-md " onSubmit={handleSubmit}>
+      <div className=" flex flex-col sm:flex-row justify-start items-start sm:items-center gap-6 mb-4 ">
 
       <div className="mb-4">
         <label htmlFor="firstName" className="block text-gray-700 text-xl font-bold mb-2">
