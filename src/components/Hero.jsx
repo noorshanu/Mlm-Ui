@@ -51,16 +51,8 @@ function Hero() {
     
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="hero-bg">
-            <div className="container-wrapper">
-              <div className=" py-12 max-w-2xl h-full">
-                <Card />
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
+
+<SwiperSlide>
           <div className="hero-bg4">
             <div className="container-wrapper">
               <div className=" py-12 max-w-2xl h-full">
@@ -85,6 +77,16 @@ function Hero() {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="hero-bg">
+            <div className="container-wrapper">
+              <div className=" py-12 max-w-2xl h-full">
+                <Card />
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
 
         <SwiperSlide>
           <div className="hero-bg2">

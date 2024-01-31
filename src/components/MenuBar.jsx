@@ -52,9 +52,12 @@ function MenuBar() {
                 
                 </p>
 
-                <a href='/images/unifywellness.pdf' className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                Business Plan 
-                </a>
+                <p  className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                  <a href="/images/unifywellness.pdf">
+                  Business Plan 
+                  </a>
+               
+                </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                   <Link to='/gallery'>
                   Gallery
