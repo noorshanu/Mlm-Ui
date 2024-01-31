@@ -58,7 +58,7 @@ function GrievanceRedressal() {
             <i class="fa fa-hand-o-right"></i>
             Company Address -
             <br />
-            <p>Ph. , Mail ID - </p>
+            <p>Ph-+91 8851924626 , Mail ID - director@unifywellness.co.in </p>
           </li>
 
           <li style={{ lineHeight: "2" }}>
@@ -120,8 +120,8 @@ function GrievanceRedressal() {
           </li>
         </ul>
 
-        <p>Name:-</p>
-        <p>Mobile Number: </p>
+        <p>Name:-Unify wellness</p>
+        <p>Mobile Number:+91 88519 24626 </p>
         <p>Email ID: director@unifywellness.com</p>
         <p>
           Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
