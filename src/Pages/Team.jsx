@@ -78,7 +78,7 @@ function Team() {
 
             <div>
               <img
-                src="images/noor.jpg"
+                src="images/teja.jpg"
                 alt=""
                 className="h-[400px] p-4 border rounded-md"
               />
