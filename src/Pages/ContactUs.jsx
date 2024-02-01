@@ -33,17 +33,17 @@ function ContactUs() {
             <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 88519 24626</p>
             <p className=" text-lg py-2"><strong>Email :</strong> director@unifywellness.com</p>
 
-            <div className=" flex items-center gap-2 py-4">
-            <a href="/" className="  text-black text-lg hover:text-[#000000]">
+            <div className=" flex items-center gap-4 py-4">
+            <a href="/" className="  text-black text-3xl hover:text-[#000000]">
               <FaXTwitter />
             </a>
-            <a href="/" className="  text-black text-lg hover:text-[#000000]">
+            <a href="/" className="  text-black text-3xl hover:text-[#000000]">
             <FaFacebook />
             </a>
-            <a href="/" className="  text-black text-lg hover:text-[#000000]"> 
+            <a href="/" className="  text-black text-3xl hover:text-[#000000]"> 
             <FaInstagram />
             </a>
-            <a href="/" className="  text-black text-lg hover:text-[#000000]">
+            <a href="/" className="  text-black text-4xl hover:text-[#000000]">
             <FaYoutube />
             </a>
           </div>

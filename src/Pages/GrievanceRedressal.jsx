@@ -56,9 +56,10 @@ function GrievanceRedressal() {
         <ul>
           <li style={{ lineHeight: "2" }}>
             <i class="fa fa-hand-o-right"></i>
-            Company Address -
+            Company Address -55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
+          metro station,new delhi ,110030
             <br />
-            <p>Ph-+91 8851924626 , Mail ID - director@unifywellness.co.in </p>
+            <p>Ph-+91 8851924626 <br /> Mail ID - director@unifywellness.co.in </p>
           </li>
 
           <li style={{ lineHeight: "2" }}>
@@ -73,7 +74,7 @@ function GrievanceRedressal() {
             Grievances lodged through the web site of the company. Company has
             introduced a web based mechanism, for lodging Complaints /
             Grievances by customers. This is known as Grievance portal
-            (www.unifywellness.com ) Customers may make use of the said Portal
+            (www.unifywellness.co.in ) Customers may make use of the said Portal
             to communicate their grievances.
           </li>
         </ul>

@@ -41,7 +41,7 @@ function Returns() {
             <h2 className="text-2xl font-bold pb-2">Introduction:</h2>
 
             <p className=" flex gap-2 items-center mb-2">
-              www.unifyhealthwellness.com website ("Website") is an Internet
+              www.unifyhealthwellness.co.in website ("Website") is an Internet
               based content and e-commerce portal owned and operated by Unify
               Wellness Pvt Ltd, registered as a Ltd company incorporated under
               Companies Act, No.1 of 1956 of India.
@@ -50,7 +50,7 @@ function Returns() {
               Use of Website is offered to you on acceptance without
               modification of all the terms, conditions and notices contained in
               these Terms, as may be posted on the Website from time to time.
-              Rootveda Wellness at its sole discretion reserves the right not to
+              unify Wellness at its sole discretion reserves the right not to
               accept a user from registering on the website without assigning
               any reason thereof.
             </p>
@@ -66,26 +66,26 @@ function Returns() {
               is fully responsible for all activities that occur under the
               user’s password or account. The user agrees to
               <br />
-              Immediately notify at info@rootvedawellness.com of any
+              Immediately notify at director@unifywellness.co.in of any
               unauthorized use of your password or account or any other breach
               of security, and
             </p>
 
             <p className=" flex gap-2 items-center mb-2">
               Ensure that the user exits from the logged in account at the end
-              of each session. Rootveda Wellness cannot and will not be liable
+              of each session. unify Wellness cannot and will not be liable
               for any loss or damage arising from the user’s failure to comply
               with this section.
             </p>
 
             <h2 className=" py-4 text-2xl font-bold">Cooling Off Period</h2>
             <p className=" flex gap-2 items-center mb-2">
-              Rootveda Wellness provides a number of internet based services
+              Unify Wellness provides a number of internet based services
               through the website (all services collectively understood as
               "Service"). One such service enables users to order products of
-              Rootveda Wellness such as home care, health care, personal care,
+              unify Wellness such as home care, health care, personal care,
               food & beverages, skin care products, etc., (collectively,
-              "Products"). Upon placing order, Rootveda Wellness shall arrange
+              "Products"). Upon placing order, unify Wellness shall arrange
               shipment of the product(s)upon successful realisation of its
               payment for the Services.
             </p>
@@ -100,6 +100,7 @@ function Returns() {
             </p>
          
         <p>Email ID: director@unifywellness.com</p>
+        <p>Mobile Number:+91 88519 24626 </p>
         <p>
           Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
           metro station,new delhi ,110030
