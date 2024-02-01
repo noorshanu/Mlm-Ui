@@ -41,7 +41,7 @@ function MenuBar() {
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 
-                <LinkScroller id='prod' to='/prod'
+                <LinkScroller id='prod' to='#prod'
                  onClick={() =>console.log('works')}
                  scrollerOptions={{ smooth: true }}
                 >
