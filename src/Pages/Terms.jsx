@@ -47,7 +47,7 @@ function Terms() {
               Use of Website is offered to you on acceptance without
               modification of all the terms, conditions and notices contained in
               these Terms, as may be posted on the Website from time to time.
-              Rootveda Wellness at its sole discretion reserves the right not to
+              unify Wellness at its sole discretion reserves the right not to
               accept a user from registering on the website without assigning
               any reason thereof.
             </p>
@@ -63,26 +63,26 @@ function Terms() {
               is fully responsible for all activities that occur under the
               user’s password or account. The user agrees to
               <br />
-              Immediately notify at info@rootvedawellness.com of any
+              Immediately notify at info@unifywellness.com of any
               unauthorized use of your password or account or any other breach
               of security, and
             </p>
 
             <p className=" flex gap-2 items-center mb-2">
               Ensure that the user exits from the logged in account at the end
-              of each session. Rootveda Wellness cannot and will not be liable
+              of each session. unify Wellness cannot and will not be liable
               for any loss or damage arising from the user’s failure to comply
               with this section.
             </p>
 
             <h2 className=" py-4 text-2xl font-bold">Services:</h2>
             <p className=" flex gap-2 items-center mb-2">
-              Rootveda Wellness provides a number of internet based services
+              unify Wellness provides a number of internet based services
               through the website (all services collectively understood as
               "Service"). One such service enables users to order products of
-              Rootveda Wellness such as home care, health care, personal care,
+              unify Wellness such as home care, health care, personal care,
               food & beverages, skin care products, etc., (collectively,
-              "Products"). Upon placing order, Rootveda Wellness shall arrange
+              "Products"). Upon placing order, unify Wellness shall arrange
               shipment of the product(s)upon successful realisation of its
               payment for the Services.
             </p>
