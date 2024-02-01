@@ -36,7 +36,7 @@ function AboutUsDropdown({ setSidebarVisibility }) {
            
             <a
               href="/team"
-              target="_blank"
+              
               rel="noreferrer"
               className="px-4"
             >
@@ -52,8 +52,8 @@ function AboutUsDropdown({ setSidebarVisibility }) {
               Our Brand
             </a> */}
             <a
-              href=""
-              target="_blank"
+              href="/awards"
+           
               rel="noreferrer"
               className="px-4"
             >
