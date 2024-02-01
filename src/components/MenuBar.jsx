@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import LinkScroller from "./LinkScroller";
+
 import AboutUsDropdown from './AboutUsDropdown';
 
 function MenuBar() {
@@ -39,9 +41,12 @@ function MenuBar() {
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 
-                <a href='#prod'>
+                <LinkScroller id='prod' to='/prod'
+                 onClick={() =>console.log('works')}
+                 scrollerOptions={{ smooth: true }}
+                >
                 Products
-                </a>
+                </LinkScroller>
               
                 </p>
 
@@ -109,9 +114,12 @@ function MenuBar() {
                 </p>
                 <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase text-end'>
                 
-                <a href='#prod'>
+                <LinkScroller id='prod' to='/prod'
+                 onClick={() =>console.log('works')}
+                 scrollerOptions={{ smooth: true }}
+                >
                 Products
-                </a>
+                </LinkScroller>
               
                 </p>
 
