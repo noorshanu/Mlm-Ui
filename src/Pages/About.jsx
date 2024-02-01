@@ -16,7 +16,7 @@ function About() {
           </h1>
           <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-2"></div>
         </div>
-        <div className=" flex justify-between gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
+        <div className=" flex justify-between flex-col sm:flex-row gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
         <img
             src="images/comp2.png"
             alt=""
@@ -38,7 +38,7 @@ function About() {
         </div>
 
 
-        <div className=" flex justify-between gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
+        <div className=" flex justify-between flex-col sm:flex-row gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
           <div>
             <div>
               <h1 className="text-[24px] sm:text-[30px] font-bold text-black  mt-2 ">
@@ -63,7 +63,7 @@ function About() {
           />
         </div>
 
-        <div className=" flex justify-between gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
+        <div className=" flex justify-between flex-col-reverse sm:flex-row gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
           <img
             src="images/miss.jpg"
             alt=""
