@@ -32,14 +32,14 @@ const Cards = ({
       </h2>
       <p className=" text-[#979797] text-sm font-sfpro mb-1">{description}</p>
 
-      <div className=" flex justify-between items-center">
+      {/* <div className=" flex justify-between items-center">
         <h3 className="text-[#979797] text-sm font-sfpro font-normal">
           MRP Price inc GST
         </h3>
         <p className="text-[#000] text-sm font-sfpro font-semibold">
           ₹ {TotalPrice}{" "}
         </p>
-      </div>
+      </div> */}
     </div>
   </div>
 );

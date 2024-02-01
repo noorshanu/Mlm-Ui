@@ -16,8 +16,13 @@ function About() {
           </h1>
           <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-2"></div>
         </div>
-
-        <div className=" text-center max-w-3xl mx-auto my-[4rem] flex flex-col justify-center gap-6">
+        <div className=" flex justify-between gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
+        <img
+            src="images/comp2.png"
+            alt=""
+            className=" h-[350px] mr-auto border p-2 rounded-md"
+          />
+        <div className="  max-w-4xl mx-auto my-[4rem] flex flex-col justify-center gap-6">
           <p className=" text-xl">
             At Unify Wellness, we believe that the journey to optimal health is
             a path best traveled using the gifts of nature, aided by the
@@ -30,6 +35,8 @@ function About() {
             enhance your wellbeing.
           </p>
         </div>
+        </div>
+
 
         <div className=" flex justify-between gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
           <div>
@@ -39,7 +46,7 @@ function About() {
               </h1>
               <div className=" bg-[#00aef3] h-[4px] w-[150px]  mb-2"></div>
             </div>
-            <p className=" max-w-2xl text-xl mt-[2rem]">
+            <p className=" max-w-3xl text-xl mt-[2rem]">
               Looking to the future, Unify Wellness aims to be a beacon of hope
               and health. We envision a world where wellness is accessible to
               all, and our daily efforts are dedicated to making this vision a
@@ -70,7 +77,7 @@ function About() {
               </h1>
               <div className=" bg-[#00aef3] h-[4px] w-[150px]  mb-2"></div>
             </div>
-            <p className=" max-w-2xl text-xl mt-[2rem]">
+            <p className=" max-w-4xl text-xl mt-[2rem]">
               Our mission at Unify Wellness is simple yet profound – to unify
               traditional wisdom with modern technology in the pursuit of
               holistic health. We strive to bring forth a range of products that

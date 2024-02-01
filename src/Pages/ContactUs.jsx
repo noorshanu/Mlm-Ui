@@ -31,7 +31,7 @@ function ContactUs() {
             </h2>
          
             <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 88519 24626</p>
-            <p className=" text-lg py-2"><strong>Email :</strong> director@unifywellness.com</p>
+            <p className=" text-lg py-2"><strong>Email :</strong> director@unifywellness.co.in</p>
 
             <div className=" flex items-center gap-4 py-4">
             <a href="/" className="  text-black text-3xl hover:text-[#000000]">
