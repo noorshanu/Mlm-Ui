@@ -17,12 +17,12 @@ function Team() {
             </h1>
             <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-2"></div>
           </div>
-          <div className=" flex justify-evenly  mt-[4rem]">
+          <div className=" flex justify-evenly flex-col sm:flex-row  mt-[4rem]">
             <div>
               <img
                 src="images/noor.jpg"
                 alt=""
-                className="h-[400px] p-4 border rounded-md"
+                className="h-[400px] p-4 border rounded-md mx-auto"
               />
               <p className=" text-2xl font-bold text-center">NOOR ALAM</p>
             </div>
@@ -56,7 +56,7 @@ function Team() {
           </div>
 
 
-          <div className=" flex justify-evenly  mt-[4rem]">
+          <div className=" flex justify-evenly flex-col-reverse sm:flex-row  mt-[4rem]">
         
 
             <div className=" max-w-xl">
@@ -80,7 +80,7 @@ function Team() {
               <img
                 src="images/teja.jpg"
                 alt=""
-                className="h-[400px] p-4 border rounded-md"
+                className="h-[400px] p-4 border rounded-md mx-auto"
               />
               <p className=" text-2xl font-bold text-center">TEJA</p>
             </div>
