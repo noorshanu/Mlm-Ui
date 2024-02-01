@@ -51,7 +51,7 @@ export default function WelcomePopup({ isOpen, onClose }) {
             </p>
 
             <button onClick={onClose} className="w-auto sm:w-full  btn-main space-x-[0.6em] py-2  px-14 text-base font-bold  mx-auto uppercase">
-              i Understand
+              I Understood
             </button>
            
 
