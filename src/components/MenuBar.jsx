@@ -78,8 +78,8 @@ function MenuBar() {
                   </Link>
                 
                 </p>
-                <a href="/" className=' btn-main py-1 px-8 font-semibold'> Log In</a>
-                <a href="/" className=' btn-main py-1 px-8 font-semibold'> Sign Up</a>
+                <a href="https://unifywellness.in/Web/aspx/member-login.aspx" target='_blank' className=' btn-main py-1 px-8 font-semibold'> Log In</a>
+                <a href="https://unifywellness.in/Web/aspx/SignUp.aspx" target='_blank' className=' btn-main py-1 px-8 font-semibold'> Sign Up</a>
             </div>
             <div className='md:hidden'>
               {/* Mobile Navigation with Hamburger Icon */}
