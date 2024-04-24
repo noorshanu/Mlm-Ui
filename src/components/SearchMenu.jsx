@@ -35,8 +35,8 @@ function SearchMenu() {
             </a>
           </div>
 
-          <div className=" flex items-center gap-2">
-            <a href="/" className="  text-black text-lg hover:text-[#000000]">
+          <div className=" flex items-center gap-2   sm:hidden">
+            {/* <a href="/" className="  text-black text-lg hover:text-[#000000]">
               <FaXTwitter />
             </a>
             <a href="/" className="  text-black text-lg hover:text-[#000000]">
@@ -47,6 +47,13 @@ function SearchMenu() {
             </a>
             <a href="/" className="  text-black text-lg hover:text-[#000000]">
             <FaYoutube />
+            </a> */}
+
+            <a href="https://unifywellness.in/Web/aspx/member-login.aspx" target='_blank' className=' underline'>
+              Login 
+            </a>
+            <a href="https://unifywellness.in/Web/aspx/SignUp.aspx" className=' underline ' target='_blank'>
+              Signup
             </a>
           </div>
         </div>
