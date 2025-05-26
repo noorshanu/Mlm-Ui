@@ -23,11 +23,11 @@ function ContactUs() {
 
         <div className=" flex justify-evenly flex-col sm:flex-row  ">
           <div className=" max-w-2xl  mt-4 sm:mt-12">
-            <div>
+            {/* <div>
               <h1 className=" text-4xl font-bold pb-4 " >Company Address</h1>
-            </div>
+            </div> */}
             <h2 className=" text-lg py-2">
-              <strong>Address : </strong>   55,2nd floor, Lane 2 , westend marg ,saidullajab, <br />near saket metro station,new delhi ,110030
+              {/* <strong>Address : </strong>   55,2nd floor, Lane 2 , westend marg ,saidullajab, <br />near saket metro station,new delhi ,110030 */}
             </h2>
          
             <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 88519 24626</p>
