@@ -183,10 +183,10 @@ function Privacy() {
         <p>Company Name: unify wellness</p>
         <p>Email ID: director@unifywellness.com</p>
         <p>Mobile Number:+91 88519 24626 </p>
-        <p>
+        {/* <p>
           Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
           metro station,new delhi ,110030
-        </p>
+        </p> */}
           </div>
         </div>
       </section>

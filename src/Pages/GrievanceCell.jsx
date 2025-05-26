@@ -49,10 +49,10 @@ function GrievanceCell() {
         <p>Name:- Mr. Noor alam</p>
         <p>Mobile Number:+91 8851924626 </p>
         <p>Email ID: director@unifywellness.com</p>
-        <p>
+        {/* <p>
           Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
           metro station,new delhi ,110030
-        </p>
+        </p> */}
         {/* <p style={{ paddingTop: "10px" }}>
           <strong>Nodal Officer - 1</strong>
           <br />
