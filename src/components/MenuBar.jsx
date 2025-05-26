@@ -50,12 +50,12 @@ function MenuBar() {
               
                 </p>
 
-                <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
+                {/* <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                 <Link to='/legal'>
                 Legal
                 </Link>
                 
-                </p>
+                </p> */}
 
                 <p  className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
                   <a href="/images/unifywellness.pdf">
